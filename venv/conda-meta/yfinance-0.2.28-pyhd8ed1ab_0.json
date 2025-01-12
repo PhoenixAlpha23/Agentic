@@ -1,0 +1,336 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "appdirs >=1.4.4",
+    "beautifulsoup4 >=4.11.1",
+    "cryptography >=3.3.2",
+    "frozendict >=2.3.4",
+    "html5lib >=1.1",
+    "lxml >=4.9.1",
+    "multitasking >=0.0.7",
+    "numpy >=1.16.5",
+    "pandas >=1.3.0",
+    "python >=3.6",
+    "pytz >=2022.5",
+    "requests >=2.26"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/yfinance-0.2.28-pyhd8ed1ab_0",
+  "files": [
+    "bin/sample",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/METADATA",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/RECORD",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/WHEEL",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/yfinance-0.2.28.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/yfinance/__init__.py",
+    "lib/python3.12/site-packages/yfinance/base.py",
+    "lib/python3.12/site-packages/yfinance/const.py",
+    "lib/python3.12/site-packages/yfinance/data.py",
+    "lib/python3.12/site-packages/yfinance/exceptions.py",
+    "lib/python3.12/site-packages/yfinance/multi.py",
+    "lib/python3.12/site-packages/yfinance/scrapers/__init__.py",
+    "lib/python3.12/site-packages/yfinance/scrapers/analysis.py",
+    "lib/python3.12/site-packages/yfinance/scrapers/fundamentals.py",
+    "lib/python3.12/site-packages/yfinance/scrapers/holders.py",
+    "lib/python3.12/site-packages/yfinance/scrapers/quote.py",
+    "lib/python3.12/site-packages/yfinance/shared.py",
+    "lib/python3.12/site-packages/yfinance/ticker.py",
+    "lib/python3.12/site-packages/yfinance/tickers.py",
+    "lib/python3.12/site-packages/yfinance/utils.py",
+    "lib/python3.12/site-packages/yfinance/version.py",
+    "lib/python3.12/site-packages/yfinance/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/const.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/data.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/multi.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/analysis.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/fundamentals.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/holders.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/quote.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/shared.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/ticker.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/tickers.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/yfinance/__pycache__/version.cpython-312.pyc"
+  ],
+  "fn": "yfinance-0.2.28-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/user/.conda/pkgs/yfinance-0.2.28-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "18cb2b6d29c280bd235b73c86be4d60f",
+  "name": "yfinance",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/yfinance-0.2.28-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/sample",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/yfinance_1691939798761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "a863709514069c3ec6a13d325d6a0ea8ffd3aac888714b7f5ed6ef0a098060b1",
+        "sha256_in_prefix": "88635c40e01d23e8006006d154e9aaae2c999c8a8e41deac8d63d0df3692ebef",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a049cc88b29475a027d7a73c31ef95dc19cee7e0fb7186498a56fb65f3ceff4e",
+        "sha256_in_prefix": "a049cc88b29475a027d7a73c31ef95dc19cee7e0fb7186498a56fb65f3ceff4e",
+        "size_in_bytes": 11610
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "75d132bc4ecfd5ec8d2755015ddd2fa1ce4e991b99d8d58263ee06525ed8be50",
+        "sha256_in_prefix": "75d132bc4ecfd5ec8d2755015ddd2fa1ce4e991b99d8d58263ee06525ed8be50",
+        "size_in_bytes": 2937
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9bd580ba99817762460ec5d64062603065c859b418dc5e5cdb10496c186ad276",
+        "sha256_in_prefix": "9bd580ba99817762460ec5d64062603065c859b418dc5e5cdb10496c186ad276",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ce076aa593c91ed7a98a6b8042ef77b7938ee36332939ccff94dd93081c04498",
+        "sha256_in_prefix": "ce076aa593c91ed7a98a6b8042ef77b7938ee36332939ccff94dd93081c04498",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c4fa7abc58ada86f390fe90e7081168c8666bc3da5e7762231baf08d91698d9c",
+        "sha256_in_prefix": "c4fa7abc58ada86f390fe90e7081168c8666bc3da5e7762231baf08d91698d9c",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "site-packages/yfinance-0.2.28.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c2d5d1bf2b8b1cde5d0e1d93b3025789cedff686cd49e430057ec46228bea0b8",
+        "sha256_in_prefix": "c2d5d1bf2b8b1cde5d0e1d93b3025789cedff686cd49e430057ec46228bea0b8",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/yfinance/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "af8362b19b10114d896ae67942c5e76425e17e54f49078a94f66d31c625f7cd3",
+        "sha256_in_prefix": "af8362b19b10114d896ae67942c5e76425e17e54f49078a94f66d31c625f7cd3",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "site-packages/yfinance/base.py",
+        "path_type": "hardlink",
+        "sha256": "a80d3e3a6823ac1ce4e8a22456ce3fd61435d068eda513f778ed6c4d96bd5408",
+        "sha256_in_prefix": "a80d3e3a6823ac1ce4e8a22456ce3fd61435d068eda513f778ed6c4d96bd5408",
+        "size_in_bytes": 93431
+      },
+      {
+        "_path": "site-packages/yfinance/const.py",
+        "path_type": "hardlink",
+        "sha256": "1057f4a9a4fc55558a4c44806172c6e49e7e6f3a7f828519f1c1e4666a16c122",
+        "sha256_in_prefix": "1057f4a9a4fc55558a4c44806172c6e49e7e6f3a7f828519f1c1e4666a16c122",
+        "size_in_bytes": 12155
+      },
+      {
+        "_path": "site-packages/yfinance/data.py",
+        "path_type": "hardlink",
+        "sha256": "0300bb2d53b1bc077d0521be54c9f010ff9595e16a157d103b40641520e96d47",
+        "sha256_in_prefix": "0300bb2d53b1bc077d0521be54c9f010ff9595e16a157d103b40641520e96d47",
+        "size_in_bytes": 2689
+      },
+      {
+        "_path": "site-packages/yfinance/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ef05d2f3b091aca0ef398858eb83f4b4d532915fa718f3a6c74a05d23c41d4f3",
+        "sha256_in_prefix": "ef05d2f3b091aca0ef398858eb83f4b4d532915fa718f3a6c74a05d23c41d4f3",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "site-packages/yfinance/multi.py",
+        "path_type": "hardlink",
+        "sha256": "1e89b9912545ad5493b36b7ee377943440f9cde08b0840d57b85033b16ecb55d",
+        "sha256_in_prefix": "1e89b9912545ad5493b36b7ee377943440f9cde08b0840d57b85033b16ecb55d",
+        "size_in_bytes": 11480
+      },
+      {
+        "_path": "site-packages/yfinance/scrapers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/yfinance/scrapers/analysis.py",
+        "path_type": "hardlink",
+        "sha256": "8fa7e54aba25934e30d1358f6cae8706f591b3e6225d538f8f1b3369bd3b1948",
+        "sha256_in_prefix": "8fa7e54aba25934e30d1358f6cae8706f591b3e6225d538f8f1b3369bd3b1948",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "site-packages/yfinance/scrapers/fundamentals.py",
+        "path_type": "hardlink",
+        "sha256": "ca65e446ff345fb9e63ac9ee2d3b050ae1cb00590621c49a4f0a2121390dc1b4",
+        "sha256_in_prefix": "ca65e446ff345fb9e63ac9ee2d3b050ae1cb00590621c49a4f0a2121390dc1b4",
+        "size_in_bytes": 5516
+      },
+      {
+        "_path": "site-packages/yfinance/scrapers/holders.py",
+        "path_type": "hardlink",
+        "sha256": "e9a53c306ee7acb3010b970fad7740e1b93ec5d4830f225db2d10241c9545e95",
+        "sha256_in_prefix": "e9a53c306ee7acb3010b970fad7740e1b93ec5d4830f225db2d10241c9545e95",
+        "size_in_bytes": 2301
+      },
+      {
+        "_path": "site-packages/yfinance/scrapers/quote.py",
+        "path_type": "hardlink",
+        "sha256": "c44cac74f12983cdfab45ad9b8540173c2d629fce5998fe7c7b82f5d1e84d06b",
+        "sha256_in_prefix": "c44cac74f12983cdfab45ad9b8540173c2d629fce5998fe7c7b82f5d1e84d06b",
+        "size_in_bytes": 25072
+      },
+      {
+        "_path": "site-packages/yfinance/shared.py",
+        "path_type": "hardlink",
+        "sha256": "8badd803f3a646e36a3540d8207b9bd69bae0483adc03750b7a1d4b1f50bc191",
+        "sha256_in_prefix": "8badd803f3a646e36a3540d8207b9bd69bae0483adc03750b7a1d4b1f50bc191",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/yfinance/ticker.py",
+        "path_type": "hardlink",
+        "sha256": "87a89dc8554d4b9d5f292f7d1bfb43f6cf56050752c1cbf852c73b8408c0a5ae",
+        "sha256_in_prefix": "87a89dc8554d4b9d5f292f7d1bfb43f6cf56050752c1cbf852c73b8408c0a5ae",
+        "size_in_bytes": 7607
+      },
+      {
+        "_path": "site-packages/yfinance/tickers.py",
+        "path_type": "hardlink",
+        "sha256": "20af9af6d51ce995b248ad34bcc3e4dfae5f6573dac9991a8c17ba09876a3b25",
+        "sha256_in_prefix": "20af9af6d51ce995b248ad34bcc3e4dfae5f6573dac9991a8c17ba09876a3b25",
+        "size_in_bytes": 3263
+      },
+      {
+        "_path": "site-packages/yfinance/utils.py",
+        "path_type": "hardlink",
+        "sha256": "50337d02d8a430f8151e4c7acd3fddcd97ff40f1275824905c195fc85d3a6f8d",
+        "sha256_in_prefix": "50337d02d8a430f8151e4c7acd3fddcd97ff40f1275824905c195fc85d3a6f8d",
+        "size_in_bytes": 41526
+      },
+      {
+        "_path": "site-packages/yfinance/version.py",
+        "path_type": "hardlink",
+        "sha256": "3a606c1c1395291652c19d564fef3d232c6f84f14fd0b28ed00d132c65f4532c",
+        "sha256_in_prefix": "3a606c1c1395291652c19d564fef3d232c6f84f14fd0b28ed00d132c65f4532c",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/const.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/multi.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/analysis.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/fundamentals.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/holders.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/scrapers/__pycache__/quote.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/shared.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/ticker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/tickers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/yfinance/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "yfinance",
+  "sha256": "7f8f99775bf9436958d129ee3ea0165bb79238950ea9993a0e51e2d1952fd180",
+  "size": 58655,
+  "subdir": "noarch",
+  "timestamp": 1691939961000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/yfinance-0.2.28-pyhd8ed1ab_0.conda",
+  "version": "0.2.28"
+}

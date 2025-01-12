@@ -1,0 +1,1089 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "anyio >=3.5.0,<5",
+    "distro >=1.7.0,<2",
+    "httpx >=0.23.0,<1",
+    "pydantic >=1.9.0,<3",
+    "python >=3.9",
+    "sniffio",
+    "typing-extensions >=4.7,<5",
+    "typing_extensions >=4.10,<5"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/groq-0.15.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/groq-0.15.0.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/groq/__init__.py",
+    "lib/python3.12/site-packages/groq/_base_client.py",
+    "lib/python3.12/site-packages/groq/_client.py",
+    "lib/python3.12/site-packages/groq/_compat.py",
+    "lib/python3.12/site-packages/groq/_constants.py",
+    "lib/python3.12/site-packages/groq/_exceptions.py",
+    "lib/python3.12/site-packages/groq/_files.py",
+    "lib/python3.12/site-packages/groq/_models.py",
+    "lib/python3.12/site-packages/groq/_qs.py",
+    "lib/python3.12/site-packages/groq/_resource.py",
+    "lib/python3.12/site-packages/groq/_response.py",
+    "lib/python3.12/site-packages/groq/_streaming.py",
+    "lib/python3.12/site-packages/groq/_types.py",
+    "lib/python3.12/site-packages/groq/_utils/__init__.py",
+    "lib/python3.12/site-packages/groq/_utils/_logs.py",
+    "lib/python3.12/site-packages/groq/_utils/_proxy.py",
+    "lib/python3.12/site-packages/groq/_utils/_reflection.py",
+    "lib/python3.12/site-packages/groq/_utils/_streams.py",
+    "lib/python3.12/site-packages/groq/_utils/_sync.py",
+    "lib/python3.12/site-packages/groq/_utils/_transform.py",
+    "lib/python3.12/site-packages/groq/_utils/_typing.py",
+    "lib/python3.12/site-packages/groq/_utils/_utils.py",
+    "lib/python3.12/site-packages/groq/_version.py",
+    "lib/python3.12/site-packages/groq/lib/.keep",
+    "lib/python3.12/site-packages/groq/py.typed",
+    "lib/python3.12/site-packages/groq/resources/__init__.py",
+    "lib/python3.12/site-packages/groq/resources/audio/__init__.py",
+    "lib/python3.12/site-packages/groq/resources/audio/audio.py",
+    "lib/python3.12/site-packages/groq/resources/audio/transcriptions.py",
+    "lib/python3.12/site-packages/groq/resources/audio/translations.py",
+    "lib/python3.12/site-packages/groq/resources/chat/__init__.py",
+    "lib/python3.12/site-packages/groq/resources/chat/chat.py",
+    "lib/python3.12/site-packages/groq/resources/chat/completions.py",
+    "lib/python3.12/site-packages/groq/resources/embeddings.py",
+    "lib/python3.12/site-packages/groq/resources/models.py",
+    "lib/python3.12/site-packages/groq/types/__init__.py",
+    "lib/python3.12/site-packages/groq/types/audio/__init__.py",
+    "lib/python3.12/site-packages/groq/types/audio/transcription.py",
+    "lib/python3.12/site-packages/groq/types/audio/transcription_create_params.py",
+    "lib/python3.12/site-packages/groq/types/audio/translation.py",
+    "lib/python3.12/site-packages/groq/types/audio/translation_create_params.py",
+    "lib/python3.12/site-packages/groq/types/chat/__init__.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_assistant_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_chunk.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_content_part_image_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_content_part_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_content_part_text_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_function_call_option_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_function_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_message.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_message_tool_call.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_message_tool_call_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_named_tool_choice_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_role.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_system_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_token_logprob.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_tool_choice_option_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_tool_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_tool_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/chat_completion_user_message_param.py",
+    "lib/python3.12/site-packages/groq/types/chat/completion_create_params.py",
+    "lib/python3.12/site-packages/groq/types/completion_usage.py",
+    "lib/python3.12/site-packages/groq/types/create_embedding_response.py",
+    "lib/python3.12/site-packages/groq/types/embedding.py",
+    "lib/python3.12/site-packages/groq/types/embedding_create_params.py",
+    "lib/python3.12/site-packages/groq/types/model.py",
+    "lib/python3.12/site-packages/groq/types/model_deleted.py",
+    "lib/python3.12/site-packages/groq/types/model_list_response.py",
+    "lib/python3.12/site-packages/groq/types/shared/__init__.py",
+    "lib/python3.12/site-packages/groq/types/shared/error_object.py",
+    "lib/python3.12/site-packages/groq/types/shared/function_definition.py",
+    "lib/python3.12/site-packages/groq/types/shared/function_parameters.py",
+    "lib/python3.12/site-packages/groq/types/shared_params/__init__.py",
+    "lib/python3.12/site-packages/groq/types/shared_params/function_definition.py",
+    "lib/python3.12/site-packages/groq/types/shared_params/function_parameters.py",
+    "lib/python3.12/site-packages/groq/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_base_client.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_client.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_compat.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_files.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_models.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_qs.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_resource.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_response.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_streaming.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_types.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_logs.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_proxy.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_reflection.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_streams.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_sync.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_transform.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_typing.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/_utils/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/audio/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/audio/__pycache__/audio.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/audio/__pycache__/transcriptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/audio/__pycache__/translations.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/chat/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/chat/__pycache__/chat.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/chat/__pycache__/completions.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/__pycache__/embeddings.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/resources/__pycache__/models.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/audio/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/audio/__pycache__/transcription.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/audio/__pycache__/transcription_create_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/audio/__pycache__/translation.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/audio/__pycache__/translation_create_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_assistant_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_chunk.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_image_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_text_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_function_call_option_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_function_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_tool_call.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_tool_call_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_named_tool_choice_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_role.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_system_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_token_logprob.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_choice_option_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_user_message_param.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/chat/__pycache__/completion_create_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/completion_usage.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/create_embedding_response.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/embedding.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/embedding_create_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/model.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/model_deleted.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/__pycache__/model_list_response.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared/__pycache__/error_object.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared/__pycache__/function_definition.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared/__pycache__/function_parameters.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/function_definition.cpython-312.pyc",
+    "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/function_parameters.cpython-312.pyc"
+  ],
+  "fn": "groq-0.15.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/user/.conda/pkgs/groq-0.15.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "003abcbd0d0903ad9afe0031a5624319",
+  "name": "groq",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/groq-0.15.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a2a4534d885965105f0dac843cb23133a5ae6700d4b7ad46357a0b8f3f5ba00d",
+        "sha256_in_prefix": "a2a4534d885965105f0dac843cb23133a5ae6700d4b7ad46357a0b8f3f5ba00d",
+        "size_in_bytes": 14164
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4d4239e4ed9f6c4d42ce9b9d8bb8c207d231594966ccdf2a496bd89004b86cac",
+        "sha256_in_prefix": "4d4239e4ed9f6c4d42ce9b9d8bb8c207d231594966ccdf2a496bd89004b86cac",
+        "size_in_bytes": 12166
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "786fc8e2a45f7a7e43e1f56e345881b89532108d4f1847a86a7b154b28a352ef",
+        "sha256_in_prefix": "786fc8e2a45f7a7e43e1f56e345881b89532108d4f1847a86a7b154b28a352ef",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/groq-0.15.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5f2314c8f553b8bf204b6e6ac4ca2623f6653f5d1b3a8a9aff86e775a65d3e9e",
+        "sha256_in_prefix": "5f2314c8f553b8bf204b6e6ac4ca2623f6653f5d1b3a8a9aff86e775a65d3e9e",
+        "size_in_bytes": 11334
+      },
+      {
+        "_path": "site-packages/groq/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ae07b9d1b7127659b2573b6a562c855e2e7e05dcd3662705e178cfe95ca4b7ea",
+        "sha256_in_prefix": "ae07b9d1b7127659b2573b6a562c855e2e7e05dcd3662705e178cfe95ca4b7ea",
+        "size_in_bytes": 2399
+      },
+      {
+        "_path": "site-packages/groq/_base_client.py",
+        "path_type": "hardlink",
+        "sha256": "0d5a1bfacac516b2c1a1ea815fcc1daf104811ca470e2394db6117b7413506a2",
+        "sha256_in_prefix": "0d5a1bfacac516b2c1a1ea815fcc1daf104811ca470e2394db6117b7413506a2",
+        "size_in_bytes": 68128
+      },
+      {
+        "_path": "site-packages/groq/_client.py",
+        "path_type": "hardlink",
+        "sha256": "d95ff2a7a45f1f122c03e800196a4ef7e538b1e41bf9f7f2b8d56fff7c060d60",
+        "sha256_in_prefix": "d95ff2a7a45f1f122c03e800196a4ef7e538b1e41bf9f7f2b8d56fff7c060d60",
+        "size_in_bytes": 16173
+      },
+      {
+        "_path": "site-packages/groq/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "5567a650a6e3e830e443e3b86da4a91d52c969fa2dcde5e6090189ba07d54c8c",
+        "sha256_in_prefix": "5567a650a6e3e830e443e3b86da4a91d52c969fa2dcde5e6090189ba07d54c8c",
+        "size_in_bytes": 6580
+      },
+      {
+        "_path": "site-packages/groq/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "244f24c996b643834afe2e1f3befbcb221184f37879d3d1f61b3850e00cfe2e9",
+        "sha256_in_prefix": "244f24c996b643834afe2e1f3befbcb221184f37879d3d1f61b3850e00cfe2e9",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "site-packages/groq/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bf05bc20832732a09b2bcbc02e127ec72a64691379b78e1359d94e3cfbecef6a",
+        "sha256_in_prefix": "bf05bc20832732a09b2bcbc02e127ec72a64691379b78e1359d94e3cfbecef6a",
+        "size_in_bytes": 3216
+      },
+      {
+        "_path": "site-packages/groq/_files.py",
+        "path_type": "hardlink",
+        "sha256": "99fe1d3a02f86f4af2c9995ba8b860803dc65600dfe97c5d18502071ed35ba01",
+        "sha256_in_prefix": "99fe1d3a02f86f4af2c9995ba8b860803dc65600dfe97c5d18502071ed35ba01",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "site-packages/groq/_models.py",
+        "path_type": "hardlink",
+        "sha256": "07a7fe0be17e3db0e9de344a08b92c6804bda2c0b6835c6cec3a68655d5d9541",
+        "sha256_in_prefix": "07a7fe0be17e3db0e9de344a08b92c6804bda2c0b6835c6cec3a68655d5d9541",
+        "size_in_bytes": 28659
+      },
+      {
+        "_path": "site-packages/groq/_qs.py",
+        "path_type": "hardlink",
+        "sha256": "00e912cf8ac7b4ae18237654fe4cde6bece9c01520118f169e21a64cfc848a67",
+        "sha256_in_prefix": "00e912cf8ac7b4ae18237654fe4cde6bece9c01520118f169e21a64cfc848a67",
+        "size_in_bytes": 4846
+      },
+      {
+        "_path": "site-packages/groq/_resource.py",
+        "path_type": "hardlink",
+        "sha256": "c232088e7ac4b8b293d9030aabb132a8bdcc023f2c0735695d9dda88d80ef81f",
+        "sha256_in_prefix": "c232088e7ac4b8b293d9030aabb132a8bdcc023f2c0735695d9dda88d80ef81f",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/groq/_response.py",
+        "path_type": "hardlink",
+        "sha256": "ae4855ffef693e42ed985a26344c909dcd40734899fcc709103527155fb912a1",
+        "sha256_in_prefix": "ae4855ffef693e42ed985a26344c909dcd40734899fcc709103527155fb912a1",
+        "size_in_bytes": 28653
+      },
+      {
+        "_path": "site-packages/groq/_streaming.py",
+        "path_type": "hardlink",
+        "sha256": "c5195223d603a4de9d8f8ace18febeab8395407203ef375df6399bfc95f11fe7",
+        "sha256_in_prefix": "c5195223d603a4de9d8f8ace18febeab8395407203ef375df6399bfc95f11fe7",
+        "size_in_bytes": 13094
+      },
+      {
+        "_path": "site-packages/groq/_types.py",
+        "path_type": "hardlink",
+        "sha256": "6d2a9b1397067e314964a8cfc0c1f22909f5f00a0f96491ad63f9ce8ffd46e46",
+        "sha256_in_prefix": "6d2a9b1397067e314964a8cfc0c1f22909f5f00a0f96491ad63f9ce8ffd46e46",
+        "size_in_bytes": 6141
+      },
+      {
+        "_path": "site-packages/groq/_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3cd67f409bb3644832617aa43b51d5846923e4853d6e095551cc3b1fe2a78f3c",
+        "sha256_in_prefix": "3cd67f409bb3644832617aa43b51d5846923e4853d6e095551cc3b1fe2a78f3c",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "site-packages/groq/_utils/_logs.py",
+        "path_type": "hardlink",
+        "sha256": "e4230a19024b4b37b8f1615739ea8fd3c8702714f24ed46e06e5efd1b716cbf5",
+        "sha256_in_prefix": "e4230a19024b4b37b8f1615739ea8fd3c8702714f24ed46e06e5efd1b716cbf5",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "site-packages/groq/_utils/_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "cf7cec6ad787b5bd040114d62a4f1064d1df3e4a896eac1dd6533df772c1c061",
+        "sha256_in_prefix": "cf7cec6ad787b5bd040114d62a4f1064d1df3e4a896eac1dd6533df772c1c061",
+        "size_in_bytes": 1902
+      },
+      {
+        "_path": "site-packages/groq/_utils/_reflection.py",
+        "path_type": "hardlink",
+        "sha256": "6661a42204ff3eec1e772341aeb2866f1a16b64a72b49354d6e5384079e610c5",
+        "sha256_in_prefix": "6661a42204ff3eec1e772341aeb2866f1a16b64a72b49354d6e5384079e610c5",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "site-packages/groq/_utils/_streams.py",
+        "path_type": "hardlink",
+        "sha256": "48c0bdd1d88515e729120ff38034556dd4778521088155628f8b5a0fe9e830b3",
+        "sha256_in_prefix": "48c0bdd1d88515e729120ff38034556dd4778521088155628f8b5a0fe9e830b3",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/groq/_utils/_sync.py",
+        "path_type": "hardlink",
+        "sha256": "8c997e88211a65950092ae0852dccdd7e68cb0a4d415a36835b7989e7a508c84",
+        "sha256_in_prefix": "8c997e88211a65950092ae0852dccdd7e68cb0a4d415a36835b7989e7a508c84",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "site-packages/groq/_utils/_transform.py",
+        "path_type": "hardlink",
+        "sha256": "0e4932afb3af78698ea257a972f5e6549584de4aa29b86f49ccd21ef259b81e6",
+        "sha256_in_prefix": "0e4932afb3af78698ea257a972f5e6549584de4aa29b86f49ccd21ef259b81e6",
+        "size_in_bytes": 13468
+      },
+      {
+        "_path": "site-packages/groq/_utils/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "9d3273d2372b41b120c70cb84ed024371b94d101c796673a990b40eaf211f2d8",
+        "sha256_in_prefix": "9d3273d2372b41b120c70cb84ed024371b94d101c796673a990b40eaf211f2d8",
+        "size_in_bytes": 4501
+      },
+      {
+        "_path": "site-packages/groq/_utils/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f1499b3cecbf000af6b948e316e8be5594ab5411d18fa6df344291a796193f60",
+        "sha256_in_prefix": "f1499b3cecbf000af6b948e316e8be5594ab5411d18fa6df344291a796193f60",
+        "size_in_bytes": 12004
+      },
+      {
+        "_path": "site-packages/groq/_version.py",
+        "path_type": "hardlink",
+        "sha256": "5c5d2a5ef8429b8be48a67a4d8278e770cc235e9f822df224afa4e402e5ced67",
+        "sha256_in_prefix": "5c5d2a5ef8429b8be48a67a4d8278e770cc235e9f822df224afa4e402e5ced67",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/groq/lib/.keep",
+        "path_type": "hardlink",
+        "sha256": "c2e36bcfee525e8de325a24e260cf8bc51cce35607fe0db4179711428d2f2deb",
+        "sha256_in_prefix": "c2e36bcfee525e8de325a24e260cf8bc51cce35607fe0db4179711428d2f2deb",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "site-packages/groq/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/groq/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfbf5036738f47c01f1295922ffbb44b93985914444ac2c26233b82c8a257b93",
+        "sha256_in_prefix": "cfbf5036738f47c01f1295922ffbb44b93985914444ac2c26233b82c8a257b93",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "site-packages/groq/resources/audio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fadf0931d31a3de086ee9c792bcd00af5b5d90c544af7937f7446e1be9f6e427",
+        "sha256_in_prefix": "fadf0931d31a3de086ee9c792bcd00af5b5d90c544af7937f7446e1be9f6e427",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "site-packages/groq/resources/audio/audio.py",
+        "path_type": "hardlink",
+        "sha256": "1efa3299efd0f0dd5efc56fd3154532317f8bee1d2439bb0fa98b4480370f6fa",
+        "sha256_in_prefix": "1efa3299efd0f0dd5efc56fd3154532317f8bee1d2439bb0fa98b4480370f6fa",
+        "size_in_bytes": 4562
+      },
+      {
+        "_path": "site-packages/groq/resources/audio/transcriptions.py",
+        "path_type": "hardlink",
+        "sha256": "0287d7abe1d2d601161c5e9cc7644393beb84ac26ead807cb6b46f033b25e82e",
+        "sha256_in_prefix": "0287d7abe1d2d601161c5e9cc7644393beb84ac26ead807cb6b46f033b25e82e",
+        "size_in_bytes": 16319
+      },
+      {
+        "_path": "site-packages/groq/resources/audio/translations.py",
+        "path_type": "hardlink",
+        "sha256": "20f5a6748079fdc42351c1dd5e267f1662c05c59324f913999a211d75d63f1fc",
+        "sha256_in_prefix": "20f5a6748079fdc42351c1dd5e267f1662c05c59324f913999a211d75d63f1fc",
+        "size_in_bytes": 9877
+      },
+      {
+        "_path": "site-packages/groq/resources/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f10f4e0d1a35c08a456b7e1568dc2e696166c6a1716a00ed52120091036fc445",
+        "sha256_in_prefix": "f10f4e0d1a35c08a456b7e1568dc2e696166c6a1716a00ed52120091036fc445",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "site-packages/groq/resources/chat/chat.py",
+        "path_type": "hardlink",
+        "sha256": "81b08bb07fb09b0e3ffa2f928bc5754efdec5e5233f04615e8b2db90fdeae2f8",
+        "sha256_in_prefix": "81b08bb07fb09b0e3ffa2f928bc5754efdec5e5233f04615e8b2db90fdeae2f8",
+        "size_in_bytes": 3344
+      },
+      {
+        "_path": "site-packages/groq/resources/chat/completions.py",
+        "path_type": "hardlink",
+        "sha256": "b38c7b57adbf0ff3b928dbdba89116803fd28545db9102a68011b5e0591f6228",
+        "sha256_in_prefix": "b38c7b57adbf0ff3b928dbdba89116803fd28545db9102a68011b5e0591f6228",
+        "size_in_bytes": 37223
+      },
+      {
+        "_path": "site-packages/groq/resources/embeddings.py",
+        "path_type": "hardlink",
+        "sha256": "e540a0bbec16402440b7ed638d73c812f6a83c931bfa45234332d8e193935e32",
+        "sha256_in_prefix": "e540a0bbec16402440b7ed638d73c812f6a83c931bfa45234332d8e193935e32",
+        "size_in_bytes": 8102
+      },
+      {
+        "_path": "site-packages/groq/resources/models.py",
+        "path_type": "hardlink",
+        "sha256": "b8603c270ceec4bec3c77fa393c086078a66117772574cd566a4cc1f16fa1fb2",
+        "sha256_in_prefix": "b8603c270ceec4bec3c77fa393c086078a66117772574cd566a4cc1f16fa1fb2",
+        "size_in_bytes": 10532
+      },
+      {
+        "_path": "site-packages/groq/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d57838b06651402f96c19d0ed1e2c7da94d8a44691d17dae06837928d77c5d76",
+        "sha256_in_prefix": "d57838b06651402f96c19d0ed1e2c7da94d8a44691d17dae06837928d77c5d76",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "site-packages/groq/types/audio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0fa4e4e0641b16d50c2f8f8c7e04da41f3a765d843931eac8539c3a6678abedf",
+        "sha256_in_prefix": "0fa4e4e0641b16d50c2f8f8c7e04da41f3a765d843931eac8539c3a6678abedf",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "site-packages/groq/types/audio/transcription.py",
+        "path_type": "hardlink",
+        "sha256": "14ff50330c3076a82f3f7c58f4ffb8d2006216633014ac57339cafe71f313d59",
+        "sha256_in_prefix": "14ff50330c3076a82f3f7c58f4ffb8d2006216633014ac57339cafe71f313d59",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/groq/types/audio/transcription_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "c6a759c5bca53ec5ed1c88e988fceb257817d9afc7c37bc7cb9081d1b909dfa5",
+        "sha256_in_prefix": "c6a759c5bca53ec5ed1c88e988fceb257817d9afc7c37bc7cb9081d1b909dfa5",
+        "size_in_bytes": 3944
+      },
+      {
+        "_path": "site-packages/groq/types/audio/translation.py",
+        "path_type": "hardlink",
+        "sha256": "e65f9993d0a0ec066d8be4d39f6fb8c9db28663db376f0f0cb3cd58d5a7d5b48",
+        "sha256_in_prefix": "e65f9993d0a0ec066d8be4d39f6fb8c9db28663db376f0f0cb3cd58d5a7d5b48",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "site-packages/groq/types/audio/translation_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "d8e8c26aded46a16ebd6933d49c2d2f413d4a65b66ab2f736b3b228866bc42da",
+        "sha256_in_prefix": "d8e8c26aded46a16ebd6933d49c2d2f413d4a65b66ab2f736b3b228866bc42da",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "site-packages/groq/types/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1a512b7ddba5a00ae4cec9d7bfe175e49f7e8777a1a188f66bd8a598319572d",
+        "sha256_in_prefix": "c1a512b7ddba5a00ae4cec9d7bfe175e49f7e8777a1a188f66bd8a598319572d",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion.py",
+        "path_type": "hardlink",
+        "sha256": "8decccdb88b9e1a31b5ae7df0daa4cc6f9a7681c7fa5d4de4261bd2100050486",
+        "sha256_in_prefix": "8decccdb88b9e1a31b5ae7df0daa4cc6f9a7681c7fa5d4de4261bd2100050486",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_assistant_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "3e34ad4a663aaa16ee6a22d92cb900ce2b513bd68941cf4e05dc33d318d1c5bb",
+        "sha256_in_prefix": "3e34ad4a663aaa16ee6a22d92cb900ce2b513bd68941cf4e05dc33d318d1c5bb",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_chunk.py",
+        "path_type": "hardlink",
+        "sha256": "5b954505b83588dd1ec02e24516674c7d2e52ed5eba3bc92e615261a327073ea",
+        "sha256_in_prefix": "5b954505b83588dd1ec02e24516674c7d2e52ed5eba3bc92e615261a327073ea",
+        "size_in_bytes": 5089
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_content_part_image_param.py",
+        "path_type": "hardlink",
+        "sha256": "fc94c031875b4dceb485279d5ec310845c8b8b58c6ca7ada7fe220e455369357",
+        "sha256_in_prefix": "fc94c031875b4dceb485279d5ec310845c8b8b58c6ca7ada7fe220e455369357",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_content_part_param.py",
+        "path_type": "hardlink",
+        "sha256": "f21a139cda9eac78da1c630553c0af86355b1fcc82857118c6cde32d629fa1df",
+        "sha256_in_prefix": "f21a139cda9eac78da1c630553c0af86355b1fcc82857118c6cde32d629fa1df",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_content_part_text_param.py",
+        "path_type": "hardlink",
+        "sha256": "e08a625cc28cf40b93ca8a793d1a6d3c16c1861f6cf77c72daf8e0e18c3a348c",
+        "sha256_in_prefix": "e08a625cc28cf40b93ca8a793d1a6d3c16c1861f6cf77c72daf8e0e18c3a348c",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_function_call_option_param.py",
+        "path_type": "hardlink",
+        "sha256": "33e22a587c812e4bd805cc05c71a78c9d088c5b3c368c94d9786e293d52815de",
+        "sha256_in_prefix": "33e22a587c812e4bd805cc05c71a78c9d088c5b3c368c94d9786e293d52815de",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_function_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "8c86996c11c76ede2fe311c2232bd8b582ecb7f5f88cece746360d7137f4305d",
+        "sha256_in_prefix": "8c86996c11c76ede2fe311c2232bd8b582ecb7f5f88cece746360d7137f4305d",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_message.py",
+        "path_type": "hardlink",
+        "sha256": "d7d7b610be9c1d903a11e3953e023f2db37753034b2a2ce1b71b979f12f3857d",
+        "sha256_in_prefix": "d7d7b610be9c1d903a11e3953e023f2db37753034b2a2ce1b71b979f12f3857d",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "4457abe19617c5579df45d2e964aa2d31372fde3a1a7add8fb4a0ddb87615412",
+        "sha256_in_prefix": "4457abe19617c5579df45d2e964aa2d31372fde3a1a7add8fb4a0ddb87615412",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_message_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "5e521edaf85262faedf28f18a25e4042a9da708d711eaa44215dba1b8a0dad96",
+        "sha256_in_prefix": "5e521edaf85262faedf28f18a25e4042a9da708d711eaa44215dba1b8a0dad96",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_message_tool_call_param.py",
+        "path_type": "hardlink",
+        "sha256": "5cd86e5291abe6ac154e8d0af186af27095e1d849dc0dfeeacae7578a96a0b6e",
+        "sha256_in_prefix": "5cd86e5291abe6ac154e8d0af186af27095e1d849dc0dfeeacae7578a96a0b6e",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_named_tool_choice_param.py",
+        "path_type": "hardlink",
+        "sha256": "26cc5f4896293a617bcc8ade43426b5d148ba74ece182052c9c451705e8e6668",
+        "sha256_in_prefix": "26cc5f4896293a617bcc8ade43426b5d148ba74ece182052c9c451705e8e6668",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_role.py",
+        "path_type": "hardlink",
+        "sha256": "45dce0e1d788d6e666aa09309ccacb1ef6d5d9f3d1a8a7072d0ad598a564f43c",
+        "sha256_in_prefix": "45dce0e1d788d6e666aa09309ccacb1ef6d5d9f3d1a8a7072d0ad598a564f43c",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_system_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "a96109ba99b332e51af3657b3a82de405f7648a1354285387177d7da8e37c7d1",
+        "sha256_in_prefix": "a96109ba99b332e51af3657b3a82de405f7648a1354285387177d7da8e37c7d1",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_token_logprob.py",
+        "path_type": "hardlink",
+        "sha256": "ebe8a95057ec5cc7f92fb143162d76ecd695903b66128a15806045e93b3deb90",
+        "sha256_in_prefix": "ebe8a95057ec5cc7f92fb143162d76ecd695903b66128a15806045e93b3deb90",
+        "size_in_bytes": 1769
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_tool_choice_option_param.py",
+        "path_type": "hardlink",
+        "sha256": "79fef559233d1cc421210528711815254556f9b491c0adbfd4d8c5481e533e22",
+        "sha256_in_prefix": "79fef559233d1cc421210528711815254556f9b491c0adbfd4d8c5481e533e22",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_tool_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "07e3d24fe2755703e368a2e9ce99aa7c4b0796be4ec1be787674282216efb98e",
+        "sha256_in_prefix": "07e3d24fe2755703e368a2e9ce99aa7c4b0796be4ec1be787674282216efb98e",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_tool_param.py",
+        "path_type": "hardlink",
+        "sha256": "27daf64c05b28242010c89d610ac76f60044d3088281cec7a57172421c529005",
+        "sha256_in_prefix": "27daf64c05b28242010c89d610ac76f60044d3088281cec7a57172421c529005",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "site-packages/groq/types/chat/chat_completion_user_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "9a293e3119306f9e370b9152279d8bb5391e03613f1dd2d482da0711d3bbdd74",
+        "sha256_in_prefix": "9a293e3119306f9e370b9152279d8bb5391e03613f1dd2d482da0711d3bbdd74",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "site-packages/groq/types/chat/completion_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "872a60ce8a07f7671db6dae0f9134cce2c95efe44127a7ed9f22795fde622a5a",
+        "sha256_in_prefix": "872a60ce8a07f7671db6dae0f9134cce2c95efe44127a7ed9f22795fde622a5a",
+        "size_in_bytes": 8387
+      },
+      {
+        "_path": "site-packages/groq/types/completion_usage.py",
+        "path_type": "hardlink",
+        "sha256": "32458b88e9923c2bde414f64a7f9a80973d2d4601205086aede70030d39eca24",
+        "sha256_in_prefix": "32458b88e9923c2bde414f64a7f9a80973d2d4601205086aede70030d39eca24",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "site-packages/groq/types/create_embedding_response.py",
+        "path_type": "hardlink",
+        "sha256": "95302efcfca6efa9059630e79c34680c1d863504b35a6c3096a7f97dfec534f3",
+        "sha256_in_prefix": "95302efcfca6efa9059630e79c34680c1d863504b35a6c3096a7f97dfec534f3",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "site-packages/groq/types/embedding.py",
+        "path_type": "hardlink",
+        "sha256": "ae533f72cf2e9bde3239ff641d69544735721ac223cefcc3d31cc48cc6945695",
+        "sha256_in_prefix": "ae533f72cf2e9bde3239ff641d69544735721ac223cefcc3d31cc48cc6945695",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "site-packages/groq/types/embedding_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "cdb746ea806a0ca5f33f0dd0a8be8d47f64986405415a100e7791e104087c67f",
+        "sha256_in_prefix": "cdb746ea806a0ca5f33f0dd0a8be8d47f64986405415a100e7791e104087c67f",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "site-packages/groq/types/model.py",
+        "path_type": "hardlink",
+        "sha256": "0ccc3c2b0431f01e92eac008d37f03d3177392661d639fabd283210941b897ac",
+        "sha256_in_prefix": "0ccc3c2b0431f01e92eac008d37f03d3177392661d639fabd283210941b897ac",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "site-packages/groq/types/model_deleted.py",
+        "path_type": "hardlink",
+        "sha256": "b576726e0d370ee9e839262fc214fbcca8fb293378d91d1512cffedcf46588ca",
+        "sha256_in_prefix": "b576726e0d370ee9e839262fc214fbcca8fb293378d91d1512cffedcf46588ca",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/groq/types/model_list_response.py",
+        "path_type": "hardlink",
+        "sha256": "7d428ae88eda9be4b1e1c9c2ee70b798712138a6576e44d11cbcf1880a4ade90",
+        "sha256_in_prefix": "7d428ae88eda9be4b1e1c9c2ee70b798712138a6576e44d11cbcf1880a4ade90",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/groq/types/shared/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a88821c629e635fd88ce9f8d4cf10c6f21423f33af0bb6caf577aee0fcfafe2",
+        "sha256_in_prefix": "7a88821c629e635fd88ce9f8d4cf10c6f21423f33af0bb6caf577aee0fcfafe2",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/groq/types/shared/error_object.py",
+        "path_type": "hardlink",
+        "sha256": "1bb4863d9f50c3781ec1329b8b77caebd78ce8bd94af40b60f9ecdf2211aa490",
+        "sha256_in_prefix": "1bb4863d9f50c3781ec1329b8b77caebd78ce8bd94af40b60f9ecdf2211aa490",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "site-packages/groq/types/shared/function_definition.py",
+        "path_type": "hardlink",
+        "sha256": "a0cc58f96fe9c1c5fa227a21cbb3dac7a18a48d4e786a6cd4ab5baf27bd3e1f9",
+        "sha256_in_prefix": "a0cc58f96fe9c1c5fa227a21cbb3dac7a18a48d4e786a6cd4ab5baf27bd3e1f9",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "site-packages/groq/types/shared/function_parameters.py",
+        "path_type": "hardlink",
+        "sha256": "0e473fa66f7ccc22b2a2e42662b97ddf870af19597ee1798fc8232ba75bcc7b7",
+        "sha256_in_prefix": "0e473fa66f7ccc22b2a2e42662b97ddf870af19597ee1798fc8232ba75bcc7b7",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/groq/types/shared_params/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "25ac379a69940772b2eef2f57f3b21fbc9002446de631710d093b2ee9efae57a",
+        "sha256_in_prefix": "25ac379a69940772b2eef2f57f3b21fbc9002446de631710d093b2ee9efae57a",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/groq/types/shared_params/function_definition.py",
+        "path_type": "hardlink",
+        "sha256": "d8d1598852d26375f308e3068a6abab0f28ba4eb922154aebcc253c033622402",
+        "sha256_in_prefix": "d8d1598852d26375f308e3068a6abab0f28ba4eb922154aebcc253c033622402",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/groq/types/shared_params/function_parameters.py",
+        "path_type": "hardlink",
+        "sha256": "52fc4acffddbf5be440b05abf1116b207e75d61b5b536259b29f59f4132417ea",
+        "sha256_in_prefix": "52fc4acffddbf5be440b05abf1116b207e75d61b5b536259b29f59f4132417ea",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_base_client.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_client.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_compat.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_constants.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_files.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_models.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_qs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_resource.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_response.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_streaming.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_logs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_proxy.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_reflection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_streams.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_sync.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_transform.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_typing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/_utils/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/audio/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/audio/__pycache__/audio.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/audio/__pycache__/transcriptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/audio/__pycache__/translations.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/chat/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/chat/__pycache__/chat.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/chat/__pycache__/completions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/__pycache__/embeddings.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/resources/__pycache__/models.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/audio/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/audio/__pycache__/transcription.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/audio/__pycache__/transcription_create_params.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/audio/__pycache__/translation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/audio/__pycache__/translation_create_params.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_assistant_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_chunk.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_image_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_content_part_text_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_function_call_option_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_function_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_tool_call.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_message_tool_call_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_named_tool_choice_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_role.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_system_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_token_logprob.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_choice_option_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_tool_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/chat_completion_user_message_param.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/chat/__pycache__/completion_create_params.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/completion_usage.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/create_embedding_response.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/embedding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/embedding_create_params.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/model.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/model_deleted.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/__pycache__/model_list_response.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared/__pycache__/error_object.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared/__pycache__/function_definition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared/__pycache__/function_parameters.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/function_definition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/groq/types/shared_params/__pycache__/function_parameters.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "groq",
+  "sha256": "e2855ebaa7812cf439ff3c28621b76bf6a8d2794be7df60d7f7e3effdebf5674",
+  "size": 75272,
+  "subdir": "noarch",
+  "timestamp": 1736609837000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/groq-0.15.0-pyhd8ed1ab_0.conda",
+  "version": "0.15.0"
+}

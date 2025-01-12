@@ -1,0 +1,860 @@
+{
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "botocore >=1.34.154,<1.35.0",
+    "jmespath >=0.7.1,<2.0.0",
+    "python >=3.12,<3.13.0a0",
+    "s3transfer >=0.10.0,<0.11.0"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/boto3-1.34.154-py312h06a4308_0",
+  "files": [
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/LICENSE",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/METADATA",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/NOTICE",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/RECORD",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/WHEEL",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/boto3-1.34.154.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/boto3/__init__.py",
+    "lib/python3.12/site-packages/boto3/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/__pycache__/compat.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/__pycache__/crt.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/__pycache__/session.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/compat.py",
+    "lib/python3.12/site-packages/boto3/crt.py",
+    "lib/python3.12/site-packages/boto3/data/cloudformation/2010-05-15/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/cloudwatch/2010-08-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/dynamodb/2012-08-10/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2014-10-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2015-03-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2015-04-15/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2015-10-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2016-04-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2016-09-15/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/ec2/2016-11-15/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/glacier/2012-06-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/iam/2010-05-08/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/opsworks/2013-02-18/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/s3/2006-03-01/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/sns/2010-03-31/resources-1.json",
+    "lib/python3.12/site-packages/boto3/data/sqs/2012-11-05/resources-1.json",
+    "lib/python3.12/site-packages/boto3/docs/__init__.py",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/action.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/attr.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/client.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/collection.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/docstring.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/method.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/resource.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/service.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/subresource.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/__pycache__/waiter.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/docs/action.py",
+    "lib/python3.12/site-packages/boto3/docs/attr.py",
+    "lib/python3.12/site-packages/boto3/docs/base.py",
+    "lib/python3.12/site-packages/boto3/docs/client.py",
+    "lib/python3.12/site-packages/boto3/docs/collection.py",
+    "lib/python3.12/site-packages/boto3/docs/docstring.py",
+    "lib/python3.12/site-packages/boto3/docs/method.py",
+    "lib/python3.12/site-packages/boto3/docs/resource.py",
+    "lib/python3.12/site-packages/boto3/docs/service.py",
+    "lib/python3.12/site-packages/boto3/docs/subresource.py",
+    "lib/python3.12/site-packages/boto3/docs/utils.py",
+    "lib/python3.12/site-packages/boto3/docs/waiter.py",
+    "lib/python3.12/site-packages/boto3/dynamodb/__init__.py",
+    "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/conditions.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/table.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/transform.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/dynamodb/conditions.py",
+    "lib/python3.12/site-packages/boto3/dynamodb/table.py",
+    "lib/python3.12/site-packages/boto3/dynamodb/transform.py",
+    "lib/python3.12/site-packages/boto3/dynamodb/types.py",
+    "lib/python3.12/site-packages/boto3/ec2/__init__.py",
+    "lib/python3.12/site-packages/boto3/ec2/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/ec2/__pycache__/createtags.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/ec2/__pycache__/deletetags.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/ec2/createtags.py",
+    "lib/python3.12/site-packages/boto3/ec2/deletetags.py",
+    "lib/python3.12/site-packages/boto3/exceptions.py",
+    "lib/python3.12/site-packages/boto3/resources/__init__.py",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/action.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/collection.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/factory.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/model.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/params.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/__pycache__/response.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/resources/action.py",
+    "lib/python3.12/site-packages/boto3/resources/base.py",
+    "lib/python3.12/site-packages/boto3/resources/collection.py",
+    "lib/python3.12/site-packages/boto3/resources/factory.py",
+    "lib/python3.12/site-packages/boto3/resources/model.py",
+    "lib/python3.12/site-packages/boto3/resources/params.py",
+    "lib/python3.12/site-packages/boto3/resources/response.py",
+    "lib/python3.12/site-packages/boto3/s3/__init__.py",
+    "lib/python3.12/site-packages/boto3/s3/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/s3/__pycache__/constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/s3/__pycache__/inject.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/s3/__pycache__/transfer.cpython-312.pyc",
+    "lib/python3.12/site-packages/boto3/s3/constants.py",
+    "lib/python3.12/site-packages/boto3/s3/inject.py",
+    "lib/python3.12/site-packages/boto3/s3/transfer.py",
+    "lib/python3.12/site-packages/boto3/session.py",
+    "lib/python3.12/site-packages/boto3/utils.py"
+  ],
+  "fn": "boto3-1.34.154-py312h06a4308_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/user/.conda/pkgs/boto3-1.34.154-py312h06a4308_0",
+    "type": 1
+  },
+  "md5": "731781d26fd61ecd16d5e904041b4740",
+  "name": "boto3",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/boto3-1.34.154-py312h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "sha256_in_prefix": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size_in_bytes": 10174
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8af3679d9a8aaaef9070bceca22c2c661e47f5e56917260928d011212ccec6e4",
+        "sha256_in_prefix": "8af3679d9a8aaaef9070bceca22c2c661e47f5e56917260928d011212ccec6e4",
+        "size_in_bytes": 6594
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "04fb1e61484a7810f1ba09bb42bc01ca58c9af33927d7c5a21556e4c4d1c7fa4",
+        "sha256_in_prefix": "04fb1e61484a7810f1ba09bb42bc01ca58c9af33927d7c5a21556e4c4d1c7fa4",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "03ace3bc97c89397bf0d2f60f95e8f5e069819afbf23001c51e60b21692478d8",
+        "sha256_in_prefix": "03ace3bc97c89397bf0d2f60f95e8f5e069819afbf23001c51e60b21692478d8",
+        "size_in_bytes": 7484
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "sha256_in_prefix": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d855602f29c8f1df17a5b4b54dd6f20414c78b210af3cd65bc6560c0ffbcb38e",
+        "sha256_in_prefix": "d855602f29c8f1df17a5b4b54dd6f20414c78b210af3cd65bc6560c0ffbcb38e",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3-1.34.154.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "30febf488d4670fb1e5e875ddd892de45fe6081b2b524b22ce22f18c464a1945",
+        "sha256_in_prefix": "30febf488d4670fb1e5e875ddd892de45fe6081b2b524b22ce22f18c464a1945",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "183a26be3854a4fe1885a217d507c317adbdcc0405d66476a2e3e35e4856db98",
+        "sha256_in_prefix": "183a26be3854a4fe1885a217d507c317adbdcc0405d66476a2e3e35e4856db98",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb99541eb9802e7ac89230de0e20f0c25fe83481289cf36718ede14214600454",
+        "sha256_in_prefix": "bb99541eb9802e7ac89230de0e20f0c25fe83481289cf36718ede14214600454",
+        "size_in_bytes": 3743
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b60c5da492bc22dd820f521a11229ad860681aae0d7f1394c5ac778b828553f5",
+        "sha256_in_prefix": "b60c5da492bc22dd820f521a11229ad860681aae0d7f1394c5ac778b828553f5",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/crt.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "16f80e6ba9ca6d3e9a9a498ebfa937f88e1aad3c0209446f29dfbdaacd8a655e",
+        "sha256_in_prefix": "16f80e6ba9ca6d3e9a9a498ebfa937f88e1aad3c0209446f29dfbdaacd8a655e",
+        "size_in_bytes": 5535
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f58e70070c4b1ff4a101acbcf78e0ac62d4ae30452581d3417e9ba59ac8034c",
+        "sha256_in_prefix": "9f58e70070c4b1ff4a101acbcf78e0ac62d4ae30452581d3417e9ba59ac8034c",
+        "size_in_bytes": 4905
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/session.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "31f014c9ecc6e78377d90b8cef176b014fcc3b201fddaeae8565f5ec94d17859",
+        "sha256_in_prefix": "31f014c9ecc6e78377d90b8cef176b014fcc3b201fddaeae8565f5ec94d17859",
+        "size_in_bytes": 20440
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6c5f9d6e4941a3a312266a95330eec0cace7ed6c7f5505508559e58cd1dee2a",
+        "sha256_in_prefix": "f6c5f9d6e4941a3a312266a95330eec0cace7ed6c7f5505508559e58cd1dee2a",
+        "size_in_bytes": 3684
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/compat.py",
+        "path_type": "hardlink",
+        "sha256": "d53f8bbc162a774cfe2fd848faca14eceeeffbaefcb72596476a73b45d39e6ed",
+        "sha256_in_prefix": "d53f8bbc162a774cfe2fd848faca14eceeeffbaefcb72596476a73b45d39e6ed",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/crt.py",
+        "path_type": "hardlink",
+        "sha256": "545b2d52d1cc66b67a787249f987576f8bea7c839c1dbbf5979d5f75e639712d",
+        "sha256_in_prefix": "545b2d52d1cc66b67a787249f987576f8bea7c839c1dbbf5979d5f75e639712d",
+        "size_in_bytes": 5407
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/cloudformation/2010-05-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "e6615528956d6d5a07c8f7474b235f6799a9920080c2ce4f867bde4aee2acdd2",
+        "sha256_in_prefix": "e6615528956d6d5a07c8f7474b235f6799a9920080c2ce4f867bde4aee2acdd2",
+        "size_in_bytes": 5110
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/cloudwatch/2010-08-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "ab802013c178a5bb1c77ed94dcd612180ccae79ce93323901abf37254c5b6572",
+        "sha256_in_prefix": "ab802013c178a5bb1c77ed94dcd612180ccae79ce93323901abf37254c5b6572",
+        "size_in_bytes": 11690
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/dynamodb/2012-08-10/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "8412dad49b7b6dd4f9e7b53d03b51c4a2f120a938d2b375bb43453ce3335f98d",
+        "sha256_in_prefix": "8412dad49b7b6dd4f9e7b53d03b51c4a2f120a938d2b375bb43453ce3335f98d",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2014-10-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2015-03-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2015-04-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2015-10-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2016-04-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2016-09-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/ec2/2016-11-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "bf1ed888bfac52f0457a8e1267cd46ed06b61f2fb2eb1638cf66254b1effc04c",
+        "sha256_in_prefix": "bf1ed888bfac52f0457a8e1267cd46ed06b61f2fb2eb1638cf66254b1effc04c",
+        "size_in_bytes": 76922
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/glacier/2012-06-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "193e6a5902c6797b6b1e04c3346db732ba72c1e83a3b451d81dd77f41b8d4d5b",
+        "sha256_in_prefix": "193e6a5902c6797b6b1e04c3346db732ba72c1e83a3b451d81dd77f41b8d4d5b",
+        "size_in_bytes": 19940
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/iam/2010-05-08/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "3ec393f7206a489b65b8114709546c83a93a2f2d9591260e0e76314a5d0354e7",
+        "sha256_in_prefix": "3ec393f7206a489b65b8114709546c83a93a2f2d9591260e0e76314a5d0354e7",
+        "size_in_bytes": 50357
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/opsworks/2013-02-18/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "63aca01327a0b1b600d601999fe01ddb2b837778d408eb7650aad6fdbd9805e3",
+        "sha256_in_prefix": "63aca01327a0b1b600d601999fe01ddb2b837778d408eb7650aad6fdbd9805e3",
+        "size_in_bytes": 4136
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/s3/2006-03-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "55e2802e1311aafedfc831cc2ce339fd1cd7504b83760fe7e8e2118b7b1d07ea",
+        "sha256_in_prefix": "55e2802e1311aafedfc831cc2ce339fd1cd7504b83760fe7e8e2118b7b1d07ea",
+        "size_in_bytes": 37204
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/sns/2010-03-31/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "ef398a42169f82c443bb8535ca2c373571f3fb32611caace9adba8625c503feb",
+        "sha256_in_prefix": "ef398a42169f82c443bb8535ca2c373571f3fb32611caace9adba8625c503feb",
+        "size_in_bytes": 9091
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/data/sqs/2012-11-05/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "2d1208af90487775037ae05f2e7faf4625ac49908cf7fca7a9dc45f2ecc7832f",
+        "sha256_in_prefix": "2d1208af90487775037ae05f2e7faf4625ac49908cf7fca7a9dc45f2ecc7832f",
+        "size_in_bytes": 6545
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9dc5d07d6822b54da4152821ab2da57b379e5b546778a67edf072cbc475db2bd",
+        "sha256_in_prefix": "9dc5d07d6822b54da4152821ab2da57b379e5b546778a67edf072cbc475db2bd",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e60aae775beb8adb8d6fb120313b28243c386ee0932ad2d3f40ff37e08fe28eb",
+        "sha256_in_prefix": "e60aae775beb8adb8d6fb120313b28243c386ee0932ad2d3f40ff37e08fe28eb",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/action.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f8535a979eb4b2c484583247c4844b8dd1b3e8196431c439314a2db9fbeafb1",
+        "sha256_in_prefix": "4f8535a979eb4b2c484583247c4844b8dd1b3e8196431c439314a2db9fbeafb1",
+        "size_in_bytes": 7813
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/attr.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60bdaaf85a7d1c6645219637fea1aff21e233f05f93957f10091cf998531c22e",
+        "sha256_in_prefix": "60bdaaf85a7d1c6645219637fea1aff21e233f05f93957f10091cf998531c22e",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0d1e985cb914b9a3e00d379d038f0e4d2ba0961d6ffe29fe59e4007b0165379",
+        "sha256_in_prefix": "b0d1e985cb914b9a3e00d379d038f0e4d2ba0961d6ffe29fe59e4007b0165379",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/client.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0aadae066ac6052f5df814539990162c5beb03faaf8916803889d786a35814c",
+        "sha256_in_prefix": "a0aadae066ac6052f5df814539990162c5beb03faaf8916803889d786a35814c",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/collection.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0431b16e2085297d23ffa0592a0d2cf9b8fd66bd4715c10ea5d8bd9bbd17725",
+        "sha256_in_prefix": "d0431b16e2085297d23ffa0592a0d2cf9b8fd66bd4715c10ea5d8bd9bbd17725",
+        "size_in_bytes": 10688
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/docstring.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fea10e652b8d5066a04e794f788ca93996b5bec0daded70b339494b2299b107",
+        "sha256_in_prefix": "1fea10e652b8d5066a04e794f788ca93996b5bec0daded70b339494b2299b107",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/method.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "12e51f60663ca290b12a06a4c4f59497cd00ce75541fdd8f2f6f41efebb08e6c",
+        "sha256_in_prefix": "12e51f60663ca290b12a06a4c4f59497cd00ce75541fdd8f2f6f41efebb08e6c",
+        "size_in_bytes": 2234
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/resource.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7622d0cc3adef86f48b2b9cf7833a4b27f5f097955482006fa4714398ff5ea79",
+        "sha256_in_prefix": "7622d0cc3adef86f48b2b9cf7833a4b27f5f097955482006fa4714398ff5ea79",
+        "size_in_bytes": 18502
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/service.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "76216a107a2d50ad7bdb3046127444922b41f7cd0dbd67c9d823261f04e79c2f",
+        "sha256_in_prefix": "76216a107a2d50ad7bdb3046127444922b41f7cd0dbd67c9d823261f04e79c2f",
+        "size_in_bytes": 10401
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/subresource.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7520f7d50b3d7ebeff4cb69f3adb0fab0538cc324ca14fcaa61617d48231f1ea",
+        "sha256_in_prefix": "7520f7d50b3d7ebeff4cb69f3adb0fab0538cc324ca14fcaa61617d48231f1ea",
+        "size_in_bytes": 6512
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c3ff95814e96332bf8905a08e8c533e498e87e25790e592d4df1bad9814aa8a",
+        "sha256_in_prefix": "3c3ff95814e96332bf8905a08e8c533e498e87e25790e592d4df1bad9814aa8a",
+        "size_in_bytes": 6423
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/__pycache__/waiter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "683ccc7b90cb13b171534829461a3e384e0b65a77d7d2ea765127c8c5541e6f2",
+        "sha256_in_prefix": "683ccc7b90cb13b171534829461a3e384e0b65a77d7d2ea765127c8c5541e6f2",
+        "size_in_bytes": 5344
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/action.py",
+        "path_type": "hardlink",
+        "sha256": "9825bd214bd94b5792b40d03ad2a83d41fe1641cfa61376b4266c8e5dd89cdba",
+        "sha256_in_prefix": "9825bd214bd94b5792b40d03ad2a83d41fe1641cfa61376b4266c8e5dd89cdba",
+        "size_in_bytes": 8122
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/attr.py",
+        "path_type": "hardlink",
+        "sha256": "0671b7b51d4a290bef639f1a7898964395b90e232727ff63523986ead0db1625",
+        "sha256_in_prefix": "0671b7b51d4a290bef639f1a7898964395b90e232727ff63523986ead0db1625",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/base.py",
+        "path_type": "hardlink",
+        "sha256": "9cead048279448864f927f88e7da3b09f8c4b6181d9290adfeb5ed13dcd09d77",
+        "sha256_in_prefix": "9cead048279448864f927f88e7da3b09f8c4b6181d9290adfeb5ed13dcd09d77",
+        "size_in_bytes": 2103
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/client.py",
+        "path_type": "hardlink",
+        "sha256": "1de34c326d28282969933635cb2553fc96d2164185f769fb367bf6279bb76c98",
+        "sha256_in_prefix": "1de34c326d28282969933635cb2553fc96d2164185f769fb367bf6279bb76c98",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/collection.py",
+        "path_type": "hardlink",
+        "sha256": "4fb854fbe15b18baca7062fc48e66a63b3b8d408aebe720aed7557b3945f910e",
+        "sha256_in_prefix": "4fb854fbe15b18baca7062fc48e66a63b3b8d408aebe720aed7557b3945f910e",
+        "size_in_bytes": 11326
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/docstring.py",
+        "path_type": "hardlink",
+        "sha256": "a0fba06ae6dd01763a68d6be917188e7594fd71136b380277d3b0b8626dfefe1",
+        "sha256_in_prefix": "a0fba06ae6dd01763a68d6be917188e7594fd71136b380277d3b0b8626dfefe1",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/method.py",
+        "path_type": "hardlink",
+        "sha256": "3055fa2f74b35e82fc273d5f92e0cb67e39730c9cab88048da4900f3e351bcd8",
+        "sha256_in_prefix": "3055fa2f74b35e82fc273d5f92e0cb67e39730c9cab88048da4900f3e351bcd8",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/resource.py",
+        "path_type": "hardlink",
+        "sha256": "8ec16ccd77ddbe7097ee15713f2011a8f53b1f87390ffcdf5018b837cbf26d9c",
+        "sha256_in_prefix": "8ec16ccd77ddbe7097ee15713f2011a8f53b1f87390ffcdf5018b837cbf26d9c",
+        "size_in_bytes": 15134
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/service.py",
+        "path_type": "hardlink",
+        "sha256": "6c27762cf7d939e4e40ce2a0813c972585d73e4b98532f75c79298caa3cf4271",
+        "sha256_in_prefix": "6c27762cf7d939e4e40ce2a0813c972585d73e4b98532f75c79298caa3cf4271",
+        "size_in_bytes": 8544
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/subresource.py",
+        "path_type": "hardlink",
+        "sha256": "5a4100e2a9906eb37b3b3f687f2a4938f7c04d72338f06a6a408b69b8df435b1",
+        "sha256_in_prefix": "5a4100e2a9906eb37b3b3f687f2a4938f7c04d72338f06a6a408b69b8df435b1",
+        "size_in_bytes": 5766
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1f451e56f9956d8059e85f8254453156080b301388a00e6af32f21c4116744a1",
+        "sha256_in_prefix": "1f451e56f9956d8059e85f8254453156080b301388a00e6af32f21c4116744a1",
+        "size_in_bytes": 5436
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/docs/waiter.py",
+        "path_type": "hardlink",
+        "sha256": "116d0317d5c3b5b015cf15198f7908db47c2a132499c5f598da051ac220b070b",
+        "sha256_in_prefix": "116d0317d5c3b5b015cf15198f7908db47c2a132499c5f598da051ac220b070b",
+        "size_in_bytes": 5165
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f32e3dcd72b479f5f6b2b98f3f1d55b1c959fbe5bc964afebfa7f09ed6ef680a",
+        "sha256_in_prefix": "f32e3dcd72b479f5f6b2b98f3f1d55b1c959fbe5bc964afebfa7f09ed6ef680a",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/conditions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "260677ff2f925faa2b2ca38510abbac7b44760a6b70744944cce2123c6b9e00b",
+        "sha256_in_prefix": "260677ff2f925faa2b2ca38510abbac7b44760a6b70744944cce2123c6b9e00b",
+        "size_in_bytes": 17891
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/table.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60b4b228595c6fdb7149f46df41f47c1362391a9465227395a3b68dfc6c4426f",
+        "sha256_in_prefix": "60b4b228595c6fdb7149f46df41f47c1362391a9465227395a3b68dfc6c4426f",
+        "size_in_bytes": 7597
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/transform.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24fdfefbd8e9bd4d2fc5b9392c64c6bbfec00bcd6919c20b1eb2e0b7d89603bd",
+        "sha256_in_prefix": "24fdfefbd8e9bd4d2fc5b9392c64c6bbfec00bcd6919c20b1eb2e0b7d89603bd",
+        "size_in_bytes": 12780
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/__pycache__/types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a9674f27ae382e591b9e9b52154d095de3b4bc918a1e3cead4800281196ba13",
+        "sha256_in_prefix": "9a9674f27ae382e591b9e9b52154d095de3b4bc918a1e3cead4800281196ba13",
+        "size_in_bytes": 14235
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/conditions.py",
+        "path_type": "hardlink",
+        "sha256": "b2391dd2422a14ffe1f1a52fcac6507a5d33b6ce47176da882a2a2bf4b74291c",
+        "sha256_in_prefix": "b2391dd2422a14ffe1f1a52fcac6507a5d33b6ce47176da882a2a2bf4b74291c",
+        "size_in_bytes": 15045
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/table.py",
+        "path_type": "hardlink",
+        "sha256": "bacefd7716524129e8f20b14a00750cb3736a0124bdab894a4de9119cf2f424f",
+        "sha256_in_prefix": "bacefd7716524129e8f20b14a00750cb3736a0124bdab894a4de9119cf2f424f",
+        "size_in_bytes": 6343
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/transform.py",
+        "path_type": "hardlink",
+        "sha256": "2675b96733c87f111c0eccd2bd7294666a7fd6bc38e39b6c75d4b7146fbe2700",
+        "sha256_in_prefix": "2675b96733c87f111c0eccd2bd7294666a7fd6bc38e39b6c75d4b7146fbe2700",
+        "size_in_bytes": 12909
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/dynamodb/types.py",
+        "path_type": "hardlink",
+        "sha256": "721d2f20a68061ec632f8d92fce256caf8d631c6f451b36b9a4286733efa3b77",
+        "sha256_in_prefix": "721d2f20a68061ec632f8d92fce256caf8d631c6f451b36b9a4286733efa3b77",
+        "size_in_bytes": 9541
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f6ad77edf98239e561b385a772a6d2200e56f9aeca681b155357589aa9e2645",
+        "sha256_in_prefix": "6f6ad77edf98239e561b385a772a6d2200e56f9aeca681b155357589aa9e2645",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/__pycache__/createtags.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9944c7928023c825618192877f61d3d14aa6e7e21168e2b1d7bb82a5e07c6242",
+        "sha256_in_prefix": "9944c7928023c825618192877f61d3d14aa6e7e21168e2b1d7bb82a5e07c6242",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/__pycache__/deletetags.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "03e5c968c754fe66b273dd0fbf15aa75c50a3638e1d8611a7ae281eab458989d",
+        "sha256_in_prefix": "03e5c968c754fe66b273dd0fbf15aa75c50a3638e1d8611a7ae281eab458989d",
+        "size_in_bytes": 975
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/createtags.py",
+        "path_type": "hardlink",
+        "sha256": "a543c93989fb9b425c721f542fe0c454681b407a3201e98408f061cf2071dbc7",
+        "sha256_in_prefix": "a543c93989fb9b425c721f542fe0c454681b407a3201e98408f061cf2071dbc7",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/ec2/deletetags.py",
+        "path_type": "hardlink",
+        "sha256": "29a61ca92b7c14533f4d6d20d29675e2a0e356799108f574b0c7ba0e9ac4b6fa",
+        "sha256_in_prefix": "29a61ca92b7c14533f4d6d20d29675e2a0e356799108f574b0c7ba0e9ac4b6fa",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "8b5dd0a46c68162cf10060b3036aa617d95d6c8e487c1a67dfb0c7ef975d445f",
+        "sha256_in_prefix": "8b5dd0a46c68162cf10060b3036aa617d95d6c8e487c1a67dfb0c7ef975d445f",
+        "size_in_bytes": 4127
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1404390ecd015023c4f61399f9f4e4016059f33e913f6b3731a6de05ac11a29",
+        "sha256_in_prefix": "c1404390ecd015023c4f61399f9f4e4016059f33e913f6b3731a6de05ac11a29",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/action.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "406673a1a7b422eac86b328ea1cdadb8a145c6ca650dc746a18ca7e26b344f4c",
+        "sha256_in_prefix": "406673a1a7b422eac86b328ea1cdadb8a145c6ca650dc746a18ca7e26b344f4c",
+        "size_in_bytes": 9845
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65bbbd43664cd3b7d8f522ab6de0c3e0aefef054869713f782485a766b015ad9",
+        "sha256_in_prefix": "65bbbd43664cd3b7d8f522ab6de0c3e0aefef054869713f782485a766b015ad9",
+        "size_in_bytes": 4903
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/collection.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a20d7b31b053eec2cbeb58c6b2914fd051d12b74e785ea13eb2ed826860dac03",
+        "sha256_in_prefix": "a20d7b31b053eec2cbeb58c6b2914fd051d12b74e785ea13eb2ed826860dac03",
+        "size_in_bytes": 19762
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/factory.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bbc16b149441bb240c6ff30c6480335f36483232badb2f568e38d6941295092",
+        "sha256_in_prefix": "4bbc16b149441bb240c6ff30c6480335f36483232badb2f568e38d6941295092",
+        "size_in_bytes": 19695
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/model.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7607ca472847642b2d41fc6c64a022f92e3cef62af6c1988862116adaef14062",
+        "sha256_in_prefix": "7607ca472847642b2d41fc6c64a022f92e3cef62af6c1988862116adaef14062",
+        "size_in_bytes": 22621
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/params.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe9ee5b258aa6036ecd03c742654e0862ce50f4043f98e1f0b78dc9844769c32",
+        "sha256_in_prefix": "fe9ee5b258aa6036ecd03c742654e0862ce50f4043f98e1f0b78dc9844769c32",
+        "size_in_bytes": 5100
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/__pycache__/response.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5693889788969cd36c58802e2694ce2688e5b38f6de37e40ecf9484b53ffe83",
+        "sha256_in_prefix": "c5693889788969cd36c58802e2694ce2688e5b38f6de37e40ecf9484b53ffe83",
+        "size_in_bytes": 9822
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/action.py",
+        "path_type": "hardlink",
+        "sha256": "bcf7d51d5817886aa1c298114820bb952b18def1a382c4a26215dad7808c02ac",
+        "sha256_in_prefix": "bcf7d51d5817886aa1c298114820bb952b18def1a382c4a26215dad7808c02ac",
+        "size_in_bytes": 9600
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/base.py",
+        "path_type": "hardlink",
+        "sha256": "96430f59381287d1353d156d1be5700ab7ac1db43cf84567f51a80aafd239ce1",
+        "sha256_in_prefix": "96430f59381287d1353d156d1be5700ab7ac1db43cf84567f51a80aafd239ce1",
+        "size_in_bytes": 5012
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/collection.py",
+        "path_type": "hardlink",
+        "sha256": "69589f6685151d46ab185f52e0887ca8151f76a28a38100477405a21229a2e2a",
+        "sha256_in_prefix": "69589f6685151d46ab185f52e0887ca8151f76a28a38100477405a21229a2e2a",
+        "size_in_bytes": 19113
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/factory.py",
+        "path_type": "hardlink",
+        "sha256": "89757997b51978f3487e491432050d0b4b48749871affeb99bd29877020e7ca0",
+        "sha256_in_prefix": "89757997b51978f3487e491432050d0b4b48749871affeb99bd29877020e7ca0",
+        "size_in_bytes": 22708
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/model.py",
+        "path_type": "hardlink",
+        "sha256": "92cb10cf009c94732616197485c03386ed79e3cf43f888567e5e0ec09ef8688b",
+        "sha256_in_prefix": "92cb10cf009c94732616197485c03386ed79e3cf43f888567e5e0ec09ef8688b",
+        "size_in_bytes": 20336
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/params.py",
+        "path_type": "hardlink",
+        "sha256": "8ba2808cece3ce8bbba2e56261b4590b3d02c2a07a7c0ffa80e2450c8aee4d5f",
+        "sha256_in_prefix": "8ba2808cece3ce8bbba2e56261b4590b3d02c2a07a7c0ffa80e2450c8aee4d5f",
+        "size_in_bytes": 6112
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/resources/response.py",
+        "path_type": "hardlink",
+        "sha256": "6880139327abfeb979aaca7e3850b17b7eb086f6382738e035cf6a37ebd83318",
+        "sha256_in_prefix": "6880139327abfeb979aaca7e3850b17b7eb086f6382738e035cf6a37ebd83318",
+        "size_in_bytes": 11638
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "27af14d805b7ae737a5ec2843842125f9b2200dac5923a86e7c0a948330c9c06",
+        "sha256_in_prefix": "27af14d805b7ae737a5ec2843842125f9b2200dac5923a86e7c0a948330c9c06",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/__pycache__/constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "713efe8adeaf3e99df6a4e08bf0af948eb2254316ec4dc0518e809f23dcdf187",
+        "sha256_in_prefix": "713efe8adeaf3e99df6a4e08bf0af948eb2254316ec4dc0518e809f23dcdf187",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/__pycache__/inject.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b6e805485e5fa8b1eba8a635ed56c622894f307ab8ea639a33ab653ad324441",
+        "sha256_in_prefix": "9b6e805485e5fa8b1eba8a635ed56c622894f307ab8ea639a33ab653ad324441",
+        "size_in_bytes": 28907
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/__pycache__/transfer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "54cf0405400e637bdaa0085114b4febdca4629d1063dbaa1f1ac89bf0f3e2963",
+        "sha256_in_prefix": "54cf0405400e637bdaa0085114b4febdca4629d1063dbaa1f1ac89bf0f3e2963",
+        "size_in_bytes": 16276
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/constants.py",
+        "path_type": "hardlink",
+        "sha256": "65a6249cdc2a1b0b0910690bf76197681b3d9237d16f208316df3dc1e8bcb7b1",
+        "sha256_in_prefix": "65a6249cdc2a1b0b0910690bf76197681b3d9237d16f208316df3dc1e8bcb7b1",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/inject.py",
+        "path_type": "hardlink",
+        "sha256": "d8cfe2763ffbf96b38d7dc5fc1938c7988750bf58bb751806f02546e545514c5",
+        "sha256_in_prefix": "d8cfe2763ffbf96b38d7dc5fc1938c7988750bf58bb751806f02546e545514c5",
+        "size_in_bytes": 28191
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/s3/transfer.py",
+        "path_type": "hardlink",
+        "sha256": "ff45f1a3272bec28946cbb52a0f7913fc7232bbc981e7983226e7d0903d80c0b",
+        "sha256_in_prefix": "ff45f1a3272bec28946cbb52a0f7913fc7232bbc981e7983226e7d0903d80c0b",
+        "size_in_bytes": 15935
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/session.py",
+        "path_type": "hardlink",
+        "sha256": "41c45a3d533051bf3f5ff1785c5e2bc45f304c73a03fa666148a8da97543f483",
+        "sha256_in_prefix": "41c45a3d533051bf3f5ff1785c5e2bc45f304c73a03fa666148a8da97543f483",
+        "size_in_bytes": 20720
+      },
+      {
+        "_path": "lib/python3.12/site-packages/boto3/utils.py",
+        "path_type": "hardlink",
+        "sha256": "741c3412edb74ce843b0fd4b92ba78b8e54c9f90d2f2cd24446c15462083fca3",
+        "sha256_in_prefix": "741c3412edb74ce843b0fd4b92ba78b8e54c9f90d2f2cd24446c15462083fca3",
+        "size_in_bytes": 3141
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4358fd2d60319b2e0227e37c759b36dcd6dc4e89daf2cb9702bb0934d6803c52",
+  "size": 158567,
+  "subdir": "linux-64",
+  "timestamp": 1723129152000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/boto3-1.34.154-py312h06a4308_0.conda",
+  "version": "1.34.154"
+}

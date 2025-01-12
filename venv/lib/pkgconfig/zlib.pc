@@ -1,0 +1,13 @@
+prefix=/home/user/agent/venv
+exec_prefix=/home/user/agent/venv
+libdir=/home/user/agent/venv/lib
+sharedlibdir=/home/user/agent/venv/lib
+includedir=/home/user/agent/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

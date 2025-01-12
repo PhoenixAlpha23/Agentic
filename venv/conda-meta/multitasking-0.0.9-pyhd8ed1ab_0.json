@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/multitasking-0.0.9-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/METADATA",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/RECORD",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/WHEEL",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/multitasking-0.0.9.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/multitasking/__init__.py",
+    "lib/python3.12/site-packages/multitasking/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "fn": "multitasking-0.0.9-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/user/.conda/pkgs/multitasking-0.0.9-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "bbbcad7e506a5921aa181ac9d5a605dd",
+  "name": "multitasking",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/multitasking-0.0.9-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "91889980b908572969a7e4957df2837566e2d3787e950d5f7ef3115fc3a081ba",
+        "sha256_in_prefix": "91889980b908572969a7e4957df2837566e2d3787e950d5f7ef3115fc3a081ba",
+        "size_in_bytes": 4876
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a83fb470722fbe131e1c60bc1e6522d27b2e2b676cff31e3117ce0002cd87f51",
+        "sha256_in_prefix": "a83fb470722fbe131e1c60bc1e6522d27b2e2b676cff31e3117ce0002cd87f51",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "808c8031822a9c4b89414bc05008ef1b7da75e3a4a03d6b4aa5c5d5288955246",
+        "sha256_in_prefix": "808c8031822a9c4b89414bc05008ef1b7da75e3a4a03d6b4aa5c5d5288955246",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/multitasking-0.0.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "deb80a29568865aff488b458b04768fb1c42a192911fd9a1bd54385bacb4dbf3",
+        "sha256_in_prefix": "deb80a29568865aff488b458b04768fb1c42a192911fd9a1bd54385bacb4dbf3",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/multitasking/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "52f90530bf131c272ff9e33ffa1ed476800f2d41332b3e058e446dbee66f24de",
+        "sha256_in_prefix": "52f90530bf131c272ff9e33ffa1ed476800f2d41332b3e058e446dbee66f24de",
+        "size_in_bytes": 3977
+      },
+      {
+        "_path": "lib/python3.12/site-packages/multitasking/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88428df1d8e11e8a5e3d6cba1a5ed40d149e22aab0a41a6ab8f67cdcc7e1055e",
+  "size": 12310,
+  "subdir": "noarch",
+  "timestamp": 1622493235000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/multitasking-0.0.9-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.0.9"
+}

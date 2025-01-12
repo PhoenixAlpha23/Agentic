@@ -1,0 +1,117 @@
+==> 2025-01-11 19:16:51 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py create -p venv python=3.12
+# conda version: 24.4.0
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::_openmp_mutex-5.1-1_gnu
++defaults/linux-64::bzip2-1.0.8-h5eee18b_6
++defaults/linux-64::ca-certificates-2024.12.31-h06a4308_0
++defaults/linux-64::expat-2.6.4-h6a678d5_0
++defaults/linux-64::ld_impl_linux-64-2.40-h12ee557_0
++defaults/linux-64::libffi-3.4.4-h6a678d5_1
++defaults/linux-64::libgcc-ng-11.2.0-h1234567_1
++defaults/linux-64::libgomp-11.2.0-h1234567_1
++defaults/linux-64::libstdcxx-ng-11.2.0-h1234567_1
++defaults/linux-64::libuuid-1.41.5-h5eee18b_0
++defaults/linux-64::ncurses-6.4-h6a678d5_0
++defaults/linux-64::openssl-3.0.15-h5eee18b_0
++defaults/linux-64::pip-24.2-py312h06a4308_0
++defaults/linux-64::python-3.12.8-h5148396_0
++defaults/linux-64::readline-8.2-h5eee18b_0
++defaults/linux-64::setuptools-75.1.0-py312h06a4308_0
++defaults/linux-64::sqlite-3.45.3-h5eee18b_0
++defaults/linux-64::tk-8.6.14-h39e8969_0
++defaults/linux-64::wheel-0.44.0-py312h06a4308_0
++defaults/linux-64::xz-5.4.6-h5eee18b_1
++defaults/linux-64::zlib-1.2.13-h5eee18b_1
++defaults/noarch::tzdata-2024b-h04d1e81_0
+# update specs: ['python=3.12']
+==> 2025-01-11 19:39:36 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install conda-forge::phidata
+# conda version: 24.4.0
++conda-forge/noarch::docstring_parser-0.16-pyhd8ed1ab_0
++conda-forge/noarch::phidata-2.7.7-pyhd8ed1ab_0
++defaults/linux-64::annotated-types-0.6.0-py312h06a4308_0
++defaults/linux-64::anyio-4.6.2-py312h06a4308_0
++defaults/linux-64::bcrypt-3.2.0-py312h5eee18b_2
++defaults/linux-64::boto3-1.34.154-py312h06a4308_0
++defaults/linux-64::botocore-1.34.154-py312h06a4308_0
++defaults/linux-64::brotli-python-1.0.9-py312h6a678d5_9
++defaults/linux-64::certifi-2024.12.14-py312h06a4308_0
++defaults/linux-64::cffi-1.17.1-py312h1fdaa30_1
++defaults/linux-64::click-8.1.7-py312h06a4308_0
++defaults/linux-64::colorama-0.4.6-py312h06a4308_0
++defaults/linux-64::cryptography-43.0.3-py312h7825ff9_1
++defaults/linux-64::docker-py-7.1.0-py312h06a4308_0
++defaults/linux-64::gitpython-3.1.43-py312h06a4308_0
++defaults/linux-64::h11-0.14.0-py312h06a4308_0
++defaults/linux-64::httpcore-1.0.2-py312h06a4308_0
++defaults/linux-64::httpx-0.27.0-py312h06a4308_0
++defaults/linux-64::idna-3.7-py312h06a4308_0
++defaults/linux-64::jmespath-1.0.1-py312h06a4308_0
++defaults/linux-64::libsodium-1.0.18-h7b6447c_0
++defaults/linux-64::markdown-it-py-2.2.0-py312h06a4308_1
++defaults/linux-64::mdurl-0.1.0-py312h06a4308_0
++defaults/linux-64::paramiko-3.5.0-py312h06a4308_0
++defaults/linux-64::pydantic-2.10.3-py312h06a4308_0
++defaults/linux-64::pydantic-core-2.27.1-py312h4aa5aa6_0
++defaults/linux-64::pydantic-settings-2.6.1-py312h06a4308_0
++defaults/linux-64::pygments-2.15.1-py312h06a4308_1
++defaults/linux-64::pynacl-1.5.0-py312h5eee18b_1
++defaults/linux-64::pysocks-1.7.1-py312h06a4308_0
++defaults/linux-64::python-dateutil-2.9.0post0-py312h06a4308_2
++defaults/linux-64::python-dotenv-0.21.0-py312h06a4308_0
++defaults/linux-64::pyyaml-6.0.2-py312h5eee18b_0
++defaults/linux-64::requests-2.32.3-py312h06a4308_1
++defaults/linux-64::rich-13.9.4-py312h06a4308_0
++defaults/linux-64::s3transfer-0.10.1-py312h06a4308_0
++defaults/linux-64::shellingham-1.5.0-py312h06a4308_0
++defaults/linux-64::sniffio-1.3.0-py312h06a4308_0
++defaults/linux-64::tomli-2.0.1-py312h06a4308_1
++defaults/linux-64::typer-0.9.0-py312h06a4308_0
++defaults/linux-64::typing-extensions-4.12.2-py312h06a4308_0
++defaults/linux-64::typing_extensions-4.12.2-py312h06a4308_0
++defaults/linux-64::urllib3-2.2.3-py312h06a4308_0
++defaults/linux-64::websocket-client-1.8.0-py312h06a4308_0
++defaults/linux-64::yaml-0.2.5-h7b6447c_0
++defaults/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0
++defaults/noarch::gitdb-4.0.7-pyhd3eb1b0_0
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/noarch::six-1.16.0-pyhd3eb1b0_1
++defaults/noarch::smmap-4.0.0-pyhd3eb1b0_0
+# update specs: ['conda-forge::phidata']
+==> 2025-01-11 19:41:36 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install groq
+# conda version: 24.4.0
++conda-forge/noarch::groq-0.15.0-pyhd8ed1ab_0
++defaults/linux-64::distro-1.9.0-py312h06a4308_0
+# update specs: ['groq']
+==> 2025-01-11 19:43:15 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install yfinance
+# conda version: 24.4.0
++conda-forge/noarch::multitasking-0.0.9-pyhd8ed1ab_0
++conda-forge/noarch::yfinance-0.2.28-pyhd8ed1ab_0
++defaults/linux-64::beautifulsoup4-4.12.3-py312h06a4308_0
++defaults/linux-64::blas-1.0-mkl
++defaults/linux-64::bottleneck-1.4.2-py312ha883a20_0
++defaults/linux-64::frozendict-2.4.2-py312h06a4308_0
++defaults/linux-64::icu-73.1-h6a678d5_0
++defaults/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306
++defaults/linux-64::libxml2-2.13.5-hfdd30dd_0
++defaults/linux-64::libxslt-1.1.41-h097e994_0
++defaults/linux-64::lxml-5.3.0-py312h57af460_0
++defaults/linux-64::mkl-2023.1.0-h213fc3f_46344
++defaults/linux-64::mkl-service-2.4.0-py312h5eee18b_2
++defaults/linux-64::mkl_fft-1.3.11-py312h5eee18b_0
++defaults/linux-64::mkl_random-1.2.8-py312h526ad5a_0
++defaults/linux-64::numexpr-2.10.1-py312h3c60e43_0
++defaults/linux-64::numpy-2.0.1-py312hc5e2394_1
++defaults/linux-64::numpy-base-2.0.1-py312h0da6c21_1
++defaults/linux-64::pandas-2.2.3-py312h6a678d5_0
++defaults/linux-64::pytz-2024.1-py312h06a4308_0
++defaults/linux-64::soupsieve-2.5-py312h06a4308_0
++defaults/linux-64::tbb-2021.8.0-hdb19cb5_0
++defaults/linux-64::webencodings-0.5.1-py312h06a4308_2
++defaults/noarch::appdirs-1.4.4-pyhd3eb1b0_0
++defaults/noarch::html5lib-1.1-pyhd3eb1b0_0
++defaults/noarch::python-tzdata-2023.3-pyhd3eb1b0_0
+# update specs: ['yfinance']

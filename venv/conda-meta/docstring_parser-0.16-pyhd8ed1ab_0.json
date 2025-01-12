@@ -1,0 +1,333 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/docstring_parser-0.16-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/LICENSE.md",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/METADATA",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/RECORD",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/WHEEL",
+    "lib/python3.12/site-packages/docstring_parser-0.16.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/docstring_parser/__init__.py",
+    "lib/python3.12/site-packages/docstring_parser/attrdoc.py",
+    "lib/python3.12/site-packages/docstring_parser/common.py",
+    "lib/python3.12/site-packages/docstring_parser/epydoc.py",
+    "lib/python3.12/site-packages/docstring_parser/google.py",
+    "lib/python3.12/site-packages/docstring_parser/numpydoc.py",
+    "lib/python3.12/site-packages/docstring_parser/parser.py",
+    "lib/python3.12/site-packages/docstring_parser/py.typed",
+    "lib/python3.12/site-packages/docstring_parser/rest.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/__init__.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/_pydoctor.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_epydoc.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_google.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_numpydoc.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_parse_from_object.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_parser.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_rest.py",
+    "lib/python3.12/site-packages/docstring_parser/tests/test_util.py",
+    "lib/python3.12/site-packages/docstring_parser/util.py",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/attrdoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/common.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/epydoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/google.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/numpydoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/parser.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/rest.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/_pydoctor.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_epydoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_google.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_numpydoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_parse_from_object.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_parser.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_rest.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_util.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_parser/__pycache__/util.cpython-312.pyc"
+  ],
+  "fn": "docstring_parser-0.16-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/user/.conda/pkgs/docstring_parser-0.16-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1541834779ec03de593eb3c35f393632",
+  "name": "docstring_parser",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/docstring_parser-0.16-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "dfe514a337ae8417abd31a8af707bbd6172b03e5430bb083e145899ea97a3eea",
+        "sha256_in_prefix": "dfe514a337ae8417abd31a8af707bbd6172b03e5430bb083e145899ea97a3eea",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d449cf13b9eec737dec010a9eca53ff83c3dbfd83c98dc0748b846788b0766fd",
+        "sha256_in_prefix": "d449cf13b9eec737dec010a9eca53ff83c3dbfd83c98dc0748b846788b0766fd",
+        "size_in_bytes": 3031
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1dde48418e546745bc0f19d9d0b780e0380eb7f19041e542636f70b6cd56ffe4",
+        "sha256_in_prefix": "1dde48418e546745bc0f19d9d0b780e0380eb7f19041e542636f70b6cd56ffe4",
+        "size_in_bytes": 3422
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/docstring_parser-0.16.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "883b3ae4ed0d6fdf187003cfc9e82d940011b93f7c684a611644180afbdf0785",
+        "sha256_in_prefix": "883b3ae4ed0d6fdf187003cfc9e82d940011b93f7c684a611644180afbdf0785",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/docstring_parser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "efc58aa12b5da3bcef09c114d529b6ccbbd4fc14462b24d88e549c144075e279",
+        "sha256_in_prefix": "efc58aa12b5da3bcef09c114d529b6ccbbd4fc14462b24d88e549c144075e279",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/docstring_parser/attrdoc.py",
+        "path_type": "hardlink",
+        "sha256": "65830ce412142ebec5cd9547c7e90130ba46e50dd8292cdb041260e6a9377309",
+        "sha256_in_prefix": "65830ce412142ebec5cd9547c7e90130ba46e50dd8292cdb041260e6a9377309",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "site-packages/docstring_parser/common.py",
+        "path_type": "hardlink",
+        "sha256": "8ac7d03dfbb3e0aa2be1dc45e0c5e98eee7648d99bbc4d2b778e27e0f5f6638a",
+        "sha256_in_prefix": "8ac7d03dfbb3e0aa2be1dc45e0c5e98eee7648d99bbc4d2b778e27e0f5f6638a",
+        "size_in_bytes": 6319
+      },
+      {
+        "_path": "site-packages/docstring_parser/epydoc.py",
+        "path_type": "hardlink",
+        "sha256": "92feb68d018c3e436dccf620c2efef6d702922c183b0f2324dcb81b0d6047f3f",
+        "sha256_in_prefix": "92feb68d018c3e436dccf620c2efef6d702922c183b0f2324dcb81b0d6047f3f",
+        "size_in_bytes": 8926
+      },
+      {
+        "_path": "site-packages/docstring_parser/google.py",
+        "path_type": "hardlink",
+        "sha256": "6573cf2584658e5fee8f562a0fa656fca663ff50239a47463f8899a8d90984cb",
+        "sha256_in_prefix": "6573cf2584658e5fee8f562a0fa656fca663ff50239a47463f8899a8d90984cb",
+        "size_in_bytes": 13308
+      },
+      {
+        "_path": "site-packages/docstring_parser/numpydoc.py",
+        "path_type": "hardlink",
+        "sha256": "b7d2b8b5828dd5100388e4bd4c3532ad9cbcdb594bae9b5a207b9a86a1037891",
+        "sha256_in_prefix": "b7d2b8b5828dd5100388e4bd4c3532ad9cbcdb594bae9b5a207b9a86a1037891",
+        "size_in_bytes": 15983
+      },
+      {
+        "_path": "site-packages/docstring_parser/parser.py",
+        "path_type": "hardlink",
+        "sha256": "001f91ed7dfab22519d6ba91402de3b592a001026791419d3c38d125be78cbd9",
+        "sha256_in_prefix": "001f91ed7dfab22519d6ba91402de3b592a001026791419d3c38d125be78cbd9",
+        "size_in_bytes": 2938
+      },
+      {
+        "_path": "site-packages/docstring_parser/py.typed",
+        "path_type": "hardlink",
+        "sha256": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
+        "sha256_in_prefix": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "site-packages/docstring_parser/rest.py",
+        "path_type": "hardlink",
+        "sha256": "1483801105055bccfbed1a05e685df389148fcb86c23f16e50074b816c39946b",
+        "sha256_in_prefix": "1483801105055bccfbed1a05e685df389148fcb86c23f16e50074b816c39946b",
+        "size_in_bytes": 8291
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9550b82192e7c792ab597f28816a6c1940d040df3edfe1330470172552a4ca1",
+        "sha256_in_prefix": "e9550b82192e7c792ab597f28816a6c1940d040df3edfe1330470172552a4ca1",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/_pydoctor.py",
+        "path_type": "hardlink",
+        "sha256": "9e8b0095c9bfa2fa5eb574d69eb2dec2a9cfe046bba4cff16c0040b29062bdc7",
+        "sha256_in_prefix": "9e8b0095c9bfa2fa5eb574d69eb2dec2a9cfe046bba4cff16c0040b29062bdc7",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_epydoc.py",
+        "path_type": "hardlink",
+        "sha256": "c297203614c439b611375c7adbc3ce2a0523daaee73d59433091ed9484a9677a",
+        "sha256_in_prefix": "c297203614c439b611375c7adbc3ce2a0523daaee73d59433091ed9484a9677a",
+        "size_in_bytes": 19096
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_google.py",
+        "path_type": "hardlink",
+        "sha256": "70d0889c6a1ba629eb186b03cd929dd6fd1f3da549fedee220c163074cab6733",
+        "sha256_in_prefix": "70d0889c6a1ba629eb186b03cd929dd6fd1f3da549fedee220c163074cab6733",
+        "size_in_bytes": 26577
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_numpydoc.py",
+        "path_type": "hardlink",
+        "sha256": "296824881109e7837390f3207889404e3bb689d0d1fc8e453e5b4a1836655d35",
+        "sha256_in_prefix": "296824881109e7837390f3207889404e3bb689d0d1fc8e453e5b4a1836655d35",
+        "size_in_bytes": 28987
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_parse_from_object.py",
+        "path_type": "hardlink",
+        "sha256": "9facccf73ef148e8c297c63d20329616e97a2a4d3a5e03707c5547cef2b8eb19",
+        "sha256_in_prefix": "9facccf73ef148e8c297c63d20329616e97a2a4d3a5e03707c5547cef2b8eb19",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_parser.py",
+        "path_type": "hardlink",
+        "sha256": "999d8f793c6d1e655a7322cb32ccc476eb8427aebdd5cf561efaa9af7eaae7d6",
+        "sha256_in_prefix": "999d8f793c6d1e655a7322cb32ccc476eb8427aebdd5cf561efaa9af7eaae7d6",
+        "size_in_bytes": 6699
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_rest.py",
+        "path_type": "hardlink",
+        "sha256": "6233da85f078414aad1977b6ac4171cf1cf1ed2f31681aec4729169bb64a1974",
+        "sha256_in_prefix": "6233da85f078414aad1977b6ac4171cf1cf1ed2f31681aec4729169bb64a1974",
+        "size_in_bytes": 15194
+      },
+      {
+        "_path": "site-packages/docstring_parser/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "acdf2f31429fc8c98a743c4a57a46b8cf5cf3d0725997ef070de9a4ab8f83452",
+        "sha256_in_prefix": "acdf2f31429fc8c98a743c4a57a46b8cf5cf3d0725997ef070de9a4ab8f83452",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "site-packages/docstring_parser/util.py",
+        "path_type": "hardlink",
+        "sha256": "490f482a3ef48fd8d57cd0de14a50559c2bbde8c4649f784d6646c07a45e535d",
+        "sha256_in_prefix": "490f482a3ef48fd8d57cd0de14a50559c2bbde8c4649f784d6646c07a45e535d",
+        "size_in_bytes": 4507
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/attrdoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/common.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/epydoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/google.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/numpydoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/parser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/rest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/_pydoctor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_epydoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_google.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_numpydoc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_parse_from_object.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_parser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_rest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/tests/__pycache__/test_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_parser/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "da4fcb232504392344a2ddae6863cbbbbf2a876ddd6d00c8f1dfcdefc29f7f2a",
+  "size": 30771,
+  "subdir": "noarch",
+  "timestamp": 1710508017000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/docstring_parser-0.16-pyhd8ed1ab_0.conda",
+  "version": "0.16"
+}
