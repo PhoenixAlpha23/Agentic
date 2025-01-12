@@ -1,0 +1,127 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "feedparser >=6.0.10,<6.1.dev0",
+    "python >=3.9",
+    "requests >=2.32.0,<2.33.dev0"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/arxiv-2.1.3-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/METADATA",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/RECORD",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/WHEEL",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/arxiv-2.1.3.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/arxiv/__init__.py",
+    "lib/python3.12/site-packages/arxiv/arxiv.py",
+    "lib/python3.12/site-packages/arxiv/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/arxiv/__pycache__/arxiv.cpython-312.pyc"
+  ],
+  "fn": "arxiv-2.1.3-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/user/.conda/pkgs/arxiv-2.1.3-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "6b9c97bd970a699879f485af174311b8",
+  "name": "arxiv",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/arxiv-2.1.3-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "ca2643bfec5841c34e5441eb0de26b7def730f753b780165a4611cc3dc4b5f2c",
+        "sha256_in_prefix": "ca2643bfec5841c34e5441eb0de26b7def730f753b780165a4611cc3dc4b5f2c",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8f7f6be75c49e2a234b26a23ff41ca6adf58c5c3f079dbe6667d8cc4d7c752df",
+        "sha256_in_prefix": "8f7f6be75c49e2a234b26a23ff41ca6adf58c5c3f079dbe6667d8cc4d7c752df",
+        "size_in_bytes": 6072
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3b6b90034cff956258ed00b06ffc4aec58fd095765e24045b920fae6e5c9fba2",
+        "sha256_in_prefix": "3b6b90034cff956258ed00b06ffc4aec58fd095765e24045b920fae6e5c9fba2",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "65f29181e403edecf8ca279dada953658c2814817ae44d591b823f5211a505a8",
+        "sha256_in_prefix": "65f29181e403edecf8ca279dada953658c2814817ae44d591b823f5211a505a8",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/arxiv-2.1.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "795e3522169caa6d798665660804ee92991fcac8926214feea19506d5a33c42a",
+        "sha256_in_prefix": "795e3522169caa6d798665660804ee92991fcac8926214feea19506d5a33c42a",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/arxiv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "14e88c0f0236b3cd331ad586e24413a07267ee977b1b01ca75c12ce44fdc5b7b",
+        "sha256_in_prefix": "14e88c0f0236b3cd331ad586e24413a07267ee977b1b01ca75c12ce44fdc5b7b",
+        "size_in_bytes": 25715
+      },
+      {
+        "_path": "site-packages/arxiv/arxiv.py",
+        "path_type": "hardlink",
+        "sha256": "9f7d7cd1f5f2fbe02dfe42cc196b4b6c6b176abdf32c54b63d98a5cacb8e9dd0",
+        "sha256_in_prefix": "9f7d7cd1f5f2fbe02dfe42cc196b4b6c6b176abdf32c54b63d98a5cacb8e9dd0",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.12/site-packages/arxiv/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/arxiv/__pycache__/arxiv.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "arxiv",
+  "sha256": "b4f5f204a2a230042a6f203e9fa3b0e506952bc3ccdabf5ce2280096962e2f95",
+  "size": 16875,
+  "subdir": "noarch",
+  "timestamp": 1735145100000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/arxiv-2.1.3-pyhd8ed1ab_1.conda",
+  "version": "2.1.3"
+}

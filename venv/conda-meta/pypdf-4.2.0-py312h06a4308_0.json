@@ -1,0 +1,897 @@
+{
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/pypdf-4.2.0-py312h06a4308_0",
+  "files": [
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/pypdf/__init__.py",
+    "lib/python3.12/site-packages/pypdf/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_cmap.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_doc_common.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_encryption.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_merger.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_page.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_page_labels.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_protocols.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_reader.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_writer.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/_xobj_image_helpers.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/errors.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/filters.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/pagerange.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/papersizes.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/__pycache__/xmp.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_cmap.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/__init__.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/adobe_glyphs.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/pdfdoc.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/std.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/symbol.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/zapfding.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_codecs/adobe_glyphs.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/pdfdoc.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/std.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/symbol.py",
+    "lib/python3.12/site-packages/pypdf/_codecs/zapfding.py",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__init__.py",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_base.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_cryptography.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_fallback.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_pycryptodome.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/_base.py",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/_cryptography.py",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/_fallback.py",
+    "lib/python3.12/site-packages/pypdf/_crypt_providers/_pycryptodome.py",
+    "lib/python3.12/site-packages/pypdf/_doc_common.py",
+    "lib/python3.12/site-packages/pypdf/_encryption.py",
+    "lib/python3.12/site-packages/pypdf/_merger.py",
+    "lib/python3.12/site-packages/pypdf/_page.py",
+    "lib/python3.12/site-packages/pypdf/_page_labels.py",
+    "lib/python3.12/site-packages/pypdf/_protocols.py",
+    "lib/python3.12/site-packages/pypdf/_reader.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/__init__.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__init__.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_fixed_width_page.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_font.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_font_widths.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_manager.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_fixed_width_page.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_font.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_font_widths.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_text_state_manager.py",
+    "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_text_state_params.py",
+    "lib/python3.12/site-packages/pypdf/_utils.py",
+    "lib/python3.12/site-packages/pypdf/_version.py",
+    "lib/python3.12/site-packages/pypdf/_writer.py",
+    "lib/python3.12/site-packages/pypdf/_xobj_image_helpers.py",
+    "lib/python3.12/site-packages/pypdf/annotations/__init__.py",
+    "lib/python3.12/site-packages/pypdf/annotations/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_base.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_markup_annotations.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_non_markup_annotations.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/annotations/_base.py",
+    "lib/python3.12/site-packages/pypdf/annotations/_markup_annotations.py",
+    "lib/python3.12/site-packages/pypdf/annotations/_non_markup_annotations.py",
+    "lib/python3.12/site-packages/pypdf/constants.py",
+    "lib/python3.12/site-packages/pypdf/errors.py",
+    "lib/python3.12/site-packages/pypdf/filters.py",
+    "lib/python3.12/site-packages/pypdf/generic/__init__.py",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_base.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_data_structures.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_fit.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_outline.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_rectangle.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/__pycache__/_viewerpref.cpython-312.pyc",
+    "lib/python3.12/site-packages/pypdf/generic/_base.py",
+    "lib/python3.12/site-packages/pypdf/generic/_data_structures.py",
+    "lib/python3.12/site-packages/pypdf/generic/_fit.py",
+    "lib/python3.12/site-packages/pypdf/generic/_outline.py",
+    "lib/python3.12/site-packages/pypdf/generic/_rectangle.py",
+    "lib/python3.12/site-packages/pypdf/generic/_utils.py",
+    "lib/python3.12/site-packages/pypdf/generic/_viewerpref.py",
+    "lib/python3.12/site-packages/pypdf/pagerange.py",
+    "lib/python3.12/site-packages/pypdf/papersizes.py",
+    "lib/python3.12/site-packages/pypdf/py.typed",
+    "lib/python3.12/site-packages/pypdf/types.py",
+    "lib/python3.12/site-packages/pypdf/xmp.py"
+  ],
+  "fn": "pypdf-4.2.0-py312h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/user/.conda/pkgs/pypdf-4.2.0-py312h06a4308_0",
+    "type": 1
+  },
+  "md5": "344cd2f7bb7b16d4c7cb04b6fcb19cc8",
+  "name": "pypdf",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/pypdf-4.2.0-py312h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524",
+        "sha256_in_prefix": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1d7f8d96fa1b2706a67251a66e52a63a12d329d77ce125172e09c477344247fe",
+        "sha256_in_prefix": "1d7f8d96fa1b2706a67251a66e52a63a12d329d77ce125172e09c477344247fe",
+        "size_in_bytes": 7403
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4cdc04c7e190ca9e80d27f4dddf8d5ba22875eb9a8c9bb19a1f825865bf78adf",
+        "sha256_in_prefix": "4cdc04c7e190ca9e80d27f4dddf8d5ba22875eb9a8c9bb19a1f825865bf78adf",
+        "size_in_bytes": 7707
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf-4.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "217320e25846a738b5dcaded46386b5fd58a746aa65a34c4ad2001aa940be77c",
+        "sha256_in_prefix": "217320e25846a738b5dcaded46386b5fd58a746aa65a34c4ad2001aa940be77c",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72112f8ff0dbb94f773d61e48e1fab464f406b82e22fe79c8ea4e80990121685",
+        "sha256_in_prefix": "72112f8ff0dbb94f773d61e48e1fab464f406b82e22fe79c8ea4e80990121685",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fa2d0feaab5ad27e807c54175b028ef3c2d52d0f13260247fc3451c80276632",
+        "sha256_in_prefix": "4fa2d0feaab5ad27e807c54175b028ef3c2d52d0f13260247fc3451c80276632",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_cmap.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd1e8e53e1e3d0aa402c7a47ea9eb487efd560174bba1aedf025367860683280",
+        "sha256_in_prefix": "dd1e8e53e1e3d0aa402c7a47ea9eb487efd560174bba1aedf025367860683280",
+        "size_in_bytes": 18436
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_doc_common.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2f3d28a1fb3ef6d74ec6267172727de8d385217a5ec9118cbfb9e7f3f2603cf",
+        "sha256_in_prefix": "c2f3d28a1fb3ef6d74ec6267172727de8d385217a5ec9118cbfb9e7f3f2603cf",
+        "size_in_bytes": 55863
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_encryption.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "79ed91311073c995c2fb0df08c486267b5a777ccc9c627639141f804f1d7157f",
+        "sha256_in_prefix": "79ed91311073c995c2fb0df08c486267b5a777ccc9c627639141f804f1d7157f",
+        "size_in_bytes": 54159
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_merger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b7e25689798ba0f1320ad6d1d02e9c9ce9c35911f19bbe64393b7e1b6fb862e",
+        "sha256_in_prefix": "9b7e25689798ba0f1320ad6d1d02e9c9ce9c35911f19bbe64393b7e1b6fb862e",
+        "size_in_bytes": 25559
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_page.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c9516dbe28db7a4eef26530f2e226ad4588a30a7ecf6c7ec238796e27eb4523",
+        "sha256_in_prefix": "6c9516dbe28db7a4eef26530f2e226ad4588a30a7ecf6c7ec238796e27eb4523",
+        "size_in_bytes": 99611
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_page_labels.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "beea36dcc29c26676b653f2c437a7d95da237b6706a1cf2564e80ddc489d97e7",
+        "sha256_in_prefix": "beea36dcc29c26676b653f2c437a7d95da237b6706a1cf2564e80ddc489d97e7",
+        "size_in_bytes": 9616
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_protocols.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "abd1ec29739030cad7c1f07a08cc9619fe5a3133deef47f19324597c7e4e5253",
+        "sha256_in_prefix": "abd1ec29739030cad7c1f07a08cc9619fe5a3133deef47f19324597c7e4e5253",
+        "size_in_bytes": 4589
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_reader.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bca64dc7782c3e1f26d796368e4a7a5a9fd44a746c4e467314fa21c17d03cd86",
+        "sha256_in_prefix": "bca64dc7782c3e1f26d796368e4a7a5a9fd44a746c4e467314fa21c17d03cd86",
+        "size_in_bytes": 45688
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "736c99814706383e4db7f3a0a4948a4064f70e78ff0da8528d0233ed9f7a08ed",
+        "sha256_in_prefix": "736c99814706383e4db7f3a0a4948a4064f70e78ff0da8528d0233ed9f7a08ed",
+        "size_in_bytes": 25330
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f034faebca34241e618cc30326369446d301f73942d5a82b8b3a85187a60333",
+        "sha256_in_prefix": "8f034faebca34241e618cc30326369446d301f73942d5a82b8b3a85187a60333",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_writer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a011f78d12ea22de248ec58b792e49de5ef7a9a85a397da1b784073f295bbb39",
+        "sha256_in_prefix": "a011f78d12ea22de248ec58b792e49de5ef7a9a85a397da1b784073f295bbb39",
+        "size_in_bytes": 126805
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/_xobj_image_helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "625fcbe2f2d7ea33a2a5eee0c0d38e03c0465f491a07a9a1ff5a6c3cd166cf66",
+        "sha256_in_prefix": "625fcbe2f2d7ea33a2a5eee0c0d38e03c0465f491a07a9a1ff5a6c3cd166cf66",
+        "size_in_bytes": 11389
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbc43a7bd5cd0c082e33e8465c250f8f20da5c0cedf309b94af6ef60e90a3d16",
+        "sha256_in_prefix": "cbc43a7bd5cd0c082e33e8465c250f8f20da5c0cedf309b94af6ef60e90a3d16",
+        "size_in_bytes": 23461
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/errors.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "175078ae9fccd2b5c8d975ceb3ad6929c573b45410ade2c517bf19d3ec77992b",
+        "sha256_in_prefix": "175078ae9fccd2b5c8d975ceb3ad6929c573b45410ade2c517bf19d3ec77992b",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/filters.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e759e69778afb03a88d21e80f34acb0f6f7b5e623dd63c6d295c50b46d05d7d",
+        "sha256_in_prefix": "7e759e69778afb03a88d21e80f34acb0f6f7b5e623dd63c6d295c50b46d05d7d",
+        "size_in_bytes": 32952
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/pagerange.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "22c1d3568a5588bce2e8d72c747d688f24c668065fd5f462f6605de2c41d7b78",
+        "sha256_in_prefix": "22c1d3568a5588bce2e8d72c747d688f24c668065fd5f462f6605de2c41d7b78",
+        "size_in_bytes": 9010
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/papersizes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8cfb2fc5d963a5239fc340613d5fec1c275f359434d89262542d20441c0495d",
+        "sha256_in_prefix": "d8cfb2fc5d963a5239fc340613d5fec1c275f359434d89262542d20441c0495d",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5bca8d20f741a7799e4964adcb28f52ca63d44c387b8e1a09025ab74f42aa350",
+        "sha256_in_prefix": "5bca8d20f741a7799e4964adcb28f52ca63d44c387b8e1a09025ab74f42aa350",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/__pycache__/xmp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d214be6710f6e19288b42362979e9a465e9363082d948247ee6bd374626d475",
+        "sha256_in_prefix": "5d214be6710f6e19288b42362979e9a465e9363082d948247ee6bd374626d475",
+        "size_in_bytes": 15385
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_cmap.py",
+        "path_type": "hardlink",
+        "sha256": "1ed5f71dae6cc298b72ea8080d7a767a082f2fc1e9bbccdce982b9acd5f63017",
+        "sha256_in_prefix": "1ed5f71dae6cc298b72ea8080d7a767a082f2fc1e9bbccdce982b9acd5f63017",
+        "size_in_bytes": 17997
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d79165b34173976357289c8634ee28cd6bde6026ceb4391d162512529c475464",
+        "sha256_in_prefix": "d79165b34173976357289c8634ee28cd6bde6026ceb4391d162512529c475464",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b24abd499bc54629b9413c3f483010c5c9b88586c1156ae51ad6d34f1cd8548f",
+        "sha256_in_prefix": "b24abd499bc54629b9413c3f483010c5c9b88586c1156ae51ad6d34f1cd8548f",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/adobe_glyphs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1b099da2ed491220f566eacef0cd3f92dee516c32ee42aede7f2b97827147ff",
+        "sha256_in_prefix": "e1b099da2ed491220f566eacef0cd3f92dee516c32ee42aede7f2b97827147ff",
+        "size_in_bytes": 691118
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/pdfdoc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "92370ade941238ee69d233ecedac923196cfcd4fc11d0ce0ad65f624dac1f3bd",
+        "sha256_in_prefix": "92370ade941238ee69d233ecedac923196cfcd4fc11d0ce0ad65f624dac1f3bd",
+        "size_in_bytes": 1578
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/std.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6b7df54146cf31be7d601cb0fa91daf4c4abffb0d055e5c48e4bf5087277b35",
+        "sha256_in_prefix": "a6b7df54146cf31be7d601cb0fa91daf4c4abffb0d055e5c48e4bf5087277b35",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/symbol.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbbfa442f4e39e3c084d1790dbde5e755e8d5c5b6d6ba46ee4ff55a244ec8161",
+        "sha256_in_prefix": "bbbfa442f4e39e3c084d1790dbde5e755e8d5c5b6d6ba46ee4ff55a244ec8161",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/__pycache__/zapfding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "edf1842b1b7d9ef6eca831acfd4a3419b529b43fc940864c0efb18a99f7fb353",
+        "sha256_in_prefix": "edf1842b1b7d9ef6eca831acfd4a3419b529b43fc940864c0efb18a99f7fb353",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/adobe_glyphs.py",
+        "path_type": "hardlink",
+        "sha256": "8eb3194f318513c68c12ec1f349e09661fc6672a4f060e922c4d68682f434535",
+        "sha256_in_prefix": "8eb3194f318513c68c12ec1f349e09661fc6672a4f060e922c4d68682f434535",
+        "size_in_bytes": 447237
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/pdfdoc.py",
+        "path_type": "hardlink",
+        "sha256": "c5f4af30562cbf1b9a490d14bbdbd90ca681d16bbce61d6e0a20758bdac07145",
+        "sha256_in_prefix": "c5f4af30562cbf1b9a490d14bbdbd90ca681d16bbce61d6e0a20758bdac07145",
+        "size_in_bytes": 4269
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/std.py",
+        "path_type": "hardlink",
+        "sha256": "0f240cb84a40184a52f6ecb58d67f87278fe92a4a13ce0228f9b08ed0d580fc1",
+        "sha256_in_prefix": "0f240cb84a40184a52f6ecb58d67f87278fe92a4a13ce0228f9b08ed0d580fc1",
+        "size_in_bytes": 2630
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/symbol.py",
+        "path_type": "hardlink",
+        "sha256": "9c86864089615822623cc1ebc149661871fefdf397c842af82e466b8a5dc1809",
+        "sha256_in_prefix": "9c86864089615822623cc1ebc149661871fefdf397c842af82e466b8a5dc1809",
+        "size_in_bytes": 3734
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_codecs/zapfding.py",
+        "path_type": "hardlink",
+        "sha256": "3d0c63c510bad7a778d711777b15713f55bc9cce10ad97e33b7966b4bc6913fb",
+        "sha256_in_prefix": "3d0c63c510bad7a778d711777b15713f55bc9cce10ad97e33b7966b4bc6913fb",
+        "size_in_bytes": 3742
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3ba70e43541871ad74215fd80e8d5113a3f30acfabc4bf6934698ffff9d11a41",
+        "sha256_in_prefix": "3ba70e43541871ad74215fd80e8d5113a3f30acfabc4bf6934698ffff9d11a41",
+        "size_in_bytes": 3054
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cdd97824ce38c2fd8b3a5c691897c5200ce5cbc10e8c0b973a40075db404d5f",
+        "sha256_in_prefix": "0cdd97824ce38c2fd8b3a5c691897c5200ce5cbc10e8c0b973a40075db404d5f",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d39a92a1498ed67b62ba1d350e1f9e3de8f2ba9d6ddcf8fb8504c64b9c161533",
+        "sha256_in_prefix": "d39a92a1498ed67b62ba1d350e1f9e3de8f2ba9d6ddcf8fb8504c64b9c161533",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_cryptography.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f545f50f4cb59b8b8b3eece53f9174d20c62c22bbb82a9aa48e28442f288c90",
+        "sha256_in_prefix": "0f545f50f4cb59b8b8b3eece53f9174d20c62c22bbb82a9aa48e28442f288c90",
+        "size_in_bytes": 5781
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_fallback.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a800eaa16ac744539a71049a97a2246767bdddee8a260a205886e541228b3974",
+        "sha256_in_prefix": "a800eaa16ac744539a71049a97a2246767bdddee8a260a205886e541228b3974",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/__pycache__/_pycryptodome.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed538631505dbe48ff695ab8bc6bbf18c2510115da0d9935e14853aa1acb64d1",
+        "sha256_in_prefix": "ed538631505dbe48ff695ab8bc6bbf18c2510115da0d9935e14853aa1acb64d1",
+        "size_in_bytes": 4337
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/_base.py",
+        "path_type": "hardlink",
+        "sha256": "fdfe77323eaf8af84464c438bcdc4de46d083a0158fa7e7f95e91ed1cfea88d5",
+        "sha256_in_prefix": "fdfe77323eaf8af84464c438bcdc4de46d083a0158fa7e7f95e91ed1cfea88d5",
+        "size_in_bytes": 1711
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/_cryptography.py",
+        "path_type": "hardlink",
+        "sha256": "1d3c384e2e3779df24152cac972fd84c7fa50d1425048e0f53d0cf34bbcf82ef",
+        "sha256_in_prefix": "1d3c384e2e3779df24152cac972fd84c7fa50d1425048e0f53d0cf34bbcf82ef",
+        "size_in_bytes": 4329
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/_fallback.py",
+        "path_type": "hardlink",
+        "sha256": "3d50d042bab7f3d55b681a8e1f15dfa320a4f5b2d8805aeb0ca569357cd3771f",
+        "sha256_in_prefix": "3d50d042bab7f3d55b681a8e1f15dfa320a4f5b2d8805aeb0ca569357cd3771f",
+        "size_in_bytes": 3345
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_crypt_providers/_pycryptodome.py",
+        "path_type": "hardlink",
+        "sha256": "53569067d89806b668fa12828c952118e3e1c04153a228ada30437d7a4cdaeb0",
+        "sha256_in_prefix": "53569067d89806b668fa12828c952118e3e1c04153a228ada30437d7a4cdaeb0",
+        "size_in_bytes": 3381
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_doc_common.py",
+        "path_type": "hardlink",
+        "sha256": "5b301d5042a04a774fa6f0b59f1d224f0fa67c08659add6326d95f31d5eb0c16",
+        "sha256_in_prefix": "5b301d5042a04a774fa6f0b59f1d224f0fa67c08659add6326d95f31d5eb0c16",
+        "size_in_bytes": 48730
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_encryption.py",
+        "path_type": "hardlink",
+        "sha256": "d76cc4bdb5a865e1d995fe99102b69dea4caad97a3053366cbef6ef366af063b",
+        "sha256_in_prefix": "d76cc4bdb5a865e1d995fe99102b69dea4caad97a3053366cbef6ef366af063b",
+        "size_in_bytes": 48920
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_merger.py",
+        "path_type": "hardlink",
+        "sha256": "f32f74962821472fc313a4184b5a6b54c83360d689272ed5f2f70a1045012daa",
+        "sha256_in_prefix": "f32f74962821472fc313a4184b5a6b54c83360d689272ed5f2f70a1045012daa",
+        "size_in_bytes": 24468
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_page.py",
+        "path_type": "hardlink",
+        "sha256": "6d553fc4841caf594e8d16133f3d595cad6afb8c73aa103acfe1214da5dae0dd",
+        "sha256_in_prefix": "6d553fc4841caf594e8d16133f3d595cad6afb8c73aa103acfe1214da5dae0dd",
+        "size_in_bytes": 93557
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_page_labels.py",
+        "path_type": "hardlink",
+        "sha256": "41a92c7ba470c2169126e86e9daefb2c08c40c4e887dad82f2ebbd80dac636cf",
+        "sha256_in_prefix": "41a92c7ba470c2169126e86e9daefb2c08c40c4e887dad82f2ebbd80dac636cf",
+        "size_in_bytes": 8326
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_protocols.py",
+        "path_type": "hardlink",
+        "sha256": "674cca697be39eb90a9a8fd1aa8da1ac892375dd2d5b01159265c29a1bbbd3ff",
+        "sha256_in_prefix": "674cca697be39eb90a9a8fd1aa8da1ac892375dd2d5b01159265c29a1bbbd3ff",
+        "size_in_bytes": 2260
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_reader.py",
+        "path_type": "hardlink",
+        "sha256": "fc4ac6fab68dea32b223a977ce145d3d94af883c0b642cf24d2e158dd2495791",
+        "sha256_in_prefix": "fc4ac6fab68dea32b223a977ce145d3d94af883c0b642cf24d2e158dd2495791",
+        "size_in_bytes": 45843
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "62649121327856a75695b4d8f5d279ece5937c1d5b52675c409084c9d641f017",
+        "sha256_in_prefix": "62649121327856a75695b4d8f5d279ece5937c1d5b52675c409084c9d641f017",
+        "size_in_bytes": 10373
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d890d918cf56212a5097f9b59ca869837c31d7898829f4230b627b6cd43f56d",
+        "sha256_in_prefix": "0d890d918cf56212a5097f9b59ca869837c31d7898829f4230b627b6cd43f56d",
+        "size_in_bytes": 10000
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "04f5aaaa8d208122907feda8c2c68dfef56fcaab276999692166373756f37a07",
+        "sha256_in_prefix": "04f5aaaa8d208122907feda8c2c68dfef56fcaab276999692166373756f37a07",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "346de704e64efd2499424213fd22ede641cfa424cba3e87de2a984e86fff76f0",
+        "sha256_in_prefix": "346de704e64efd2499424213fd22ede641cfa424cba3e87de2a984e86fff76f0",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_fixed_width_page.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82ba2a96e600b7ed110d4f66016477a125f6a6f914222caa9f68ebba34235281",
+        "sha256_in_prefix": "82ba2a96e600b7ed110d4f66016477a125f6a6f914222caa9f68ebba34235281",
+        "size_in_bytes": 17309
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_font.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f9d7763988837f890c0b6bc4b09c3ae5ed1e70983559c4eaf7210072ad505bf",
+        "sha256_in_prefix": "7f9d7763988837f890c0b6bc4b09c3ae5ed1e70983559c4eaf7210072ad505bf",
+        "size_in_bytes": 5260
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_font_widths.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "546b3d24206b4a7bab08562798b68a1aa8d18025fd072f0222883000452ba092",
+        "sha256_in_prefix": "546b3d24206b4a7bab08562798b68a1aa8d18025fd072f0222883000452ba092",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_manager.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bda1c0258c891a15f694b9b3ac1dbe92892e256c7b6295fcf318f56790760c6d",
+        "sha256_in_prefix": "bda1c0258c891a15f694b9b3ac1dbe92892e256c7b6295fcf318f56790760c6d",
+        "size_in_bytes": 11738
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_params.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9599e6dcd6abcbbd8c55d0561fedd096b39a9566373c4d8df17fbf0116fde461",
+        "sha256_in_prefix": "9599e6dcd6abcbbd8c55d0561fedd096b39a9566373c4d8df17fbf0116fde461",
+        "size_in_bytes": 7356
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_fixed_width_page.py",
+        "path_type": "hardlink",
+        "sha256": "2b40abe4281d8c6476ec9e04ac06a1db179e2abab5ed568f650f4be296ea9a67",
+        "sha256_in_prefix": "2b40abe4281d8c6476ec9e04ac06a1db179e2abab5ed568f650f4be296ea9a67",
+        "size_in_bytes": 14782
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_font.py",
+        "path_type": "hardlink",
+        "sha256": "08c54eb4773d025d74ceab2bdcbd77aa65f66a72a9f329c82f260a3ee5673aad",
+        "sha256_in_prefix": "08c54eb4773d025d74ceab2bdcbd77aa65f66a72a9f329c82f260a3ee5673aad",
+        "size_in_bytes": 5099
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_font_widths.py",
+        "path_type": "hardlink",
+        "sha256": "7f843569c582fe288b8732a3c9fa05f3f145cfbc254652ed5c4d55b3a21fb1ba",
+        "sha256_in_prefix": "7f843569c582fe288b8732a3c9fa05f3f145cfbc254652ed5c4d55b3a21fb1ba",
+        "size_in_bytes": 4264
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_text_state_manager.py",
+        "path_type": "hardlink",
+        "sha256": "0ef6224f5e000f5167ecdf9c6452c111678bfebc57b0921b5cb65fada08d1b9d",
+        "sha256_in_prefix": "0ef6224f5e000f5167ecdf9c6452c111678bfebc57b0921b5cb65fada08d1b9d",
+        "size_in_bytes": 8012
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_text_extraction/_layout_mode/_text_state_params.py",
+        "path_type": "hardlink",
+        "sha256": "a0a56029f53f75ca03250afc93fcaa41aa1746a163c9a77b202f49a16e12d057",
+        "sha256_in_prefix": "a0a56029f53f75ca03250afc93fcaa41aa1746a163c9a77b202f49a16e12d057",
+        "size_in_bytes": 5316
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "dec98d38941420716d63b17a100c1004b66caf547be4cd5a14be8441a9407b21",
+        "sha256_in_prefix": "dec98d38941420716d63b17a100c1004b66caf547be4cd5a14be8441a9407b21",
+        "size_in_bytes": 20078
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a54e7a6438c20e751b20d7b7f6162e2971f2f5423d4dfe318d6827c419711039",
+        "sha256_in_prefix": "a54e7a6438c20e751b20d7b7f6162e2971f2f5423d4dfe318d6827c419711039",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_writer.py",
+        "path_type": "hardlink",
+        "sha256": "794f133729e59b1699d81d1a50ffe81ad37a61992290b4fbefa222a32ded7d6c",
+        "sha256_in_prefix": "794f133729e59b1699d81d1a50ffe81ad37a61992290b4fbefa222a32ded7d6c",
+        "size_in_bytes": 114540
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/_xobj_image_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "d152e365e1d9a4048d12f003ee2561ca411667108de7307cc550d449eb216f52",
+        "sha256_in_prefix": "d152e365e1d9a4048d12f003ee2561ca411667108de7307cc550d449eb216f52",
+        "size_in_bytes": 10923
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4e8efd830864df5f08716d205cadc694f58d90d4ee5098144c716832c4f7314",
+        "sha256_in_prefix": "e4e8efd830864df5f08716d205cadc694f58d90d4ee5098144c716832c4f7314",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffa01b23923a79c9664e2141549b1f6340b8a8af7fe939c760dfda82bb45417a",
+        "sha256_in_prefix": "ffa01b23923a79c9664e2141549b1f6340b8a8af7fe939c760dfda82bb45417a",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf9349944bd3b03758ff633dd6880840604ed26b60a32dc83366f15591a9b463",
+        "sha256_in_prefix": "bf9349944bd3b03758ff633dd6880840604ed26b60a32dc83366f15591a9b463",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_markup_annotations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "678eacf9569cf89f1e8e0824ca6a1c705f75721008ed0b4c2f6e6d39cc42e8fd",
+        "sha256_in_prefix": "678eacf9569cf89f1e8e0824ca6a1c705f75721008ed0b4c2f6e6d39cc42e8fd",
+        "size_in_bytes": 14579
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/__pycache__/_non_markup_annotations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3877a66562ae385c6ce0a5b28f86d8416c5d60f28bc3088302c825fd80467ad",
+        "sha256_in_prefix": "c3877a66562ae385c6ce0a5b28f86d8416c5d60f28bc3088302c825fd80467ad",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/_base.py",
+        "path_type": "hardlink",
+        "sha256": "6b1754b1b36b843d5b1c2268592282b2980d19eeb568ad95ce7f6395a12adf37",
+        "sha256_in_prefix": "6b1754b1b36b843d5b1c2268592282b2980d19eeb568ad95ce7f6395a12adf37",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/_markup_annotations.py",
+        "path_type": "hardlink",
+        "sha256": "53c108b6d55984347118a049e22f5c0a85fb1b1ab336019707e24736faf5f9db",
+        "sha256_in_prefix": "53c108b6d55984347118a049e22f5c0a85fb1b1ab336019707e24736faf5f9db",
+        "size_in_bytes": 11608
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/annotations/_non_markup_annotations.py",
+        "path_type": "hardlink",
+        "sha256": "6bcc026bfd3e64084e59f9cb32b9265671814c1cba4247cbc9e508cf91b44d0d",
+        "sha256_in_prefix": "6bcc026bfd3e64084e59f9cb32b9265671814c1cba4247cbc9e508cf91b44d0d",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/constants.py",
+        "path_type": "hardlink",
+        "sha256": "549bb7da4cd4fb3771ffc69c019c9053da75cccb1ab2718f5f66b3cd40d254ac",
+        "sha256_in_prefix": "549bb7da4cd4fb3771ffc69c019c9053da75cccb1ab2718f5f66b3cd40d254ac",
+        "size_in_bytes": 21006
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/errors.py",
+        "path_type": "hardlink",
+        "sha256": "1b6fdfa8f6899de351e10e68f042de9bbeea5b4d31771f5db4f739456c061892",
+        "sha256_in_prefix": "1b6fdfa8f6899de351e10e68f042de9bbeea5b4d31771f5db4f739456c061892",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/filters.py",
+        "path_type": "hardlink",
+        "sha256": "3f9c68a8a49475e2fa04f64ec35f29c35b3d4c2e5455cf48544bb1074ef98418",
+        "sha256_in_prefix": "3f9c68a8a49475e2fa04f64ec35f29c35b3d4c2e5455cf48544bb1074ef98418",
+        "size_in_bytes": 30896
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9b1f23c11941196f68095eec7718c859353a26a57d4fcc4e888fae17f2c965d",
+        "sha256_in_prefix": "d9b1f23c11941196f68095eec7718c859353a26a57d4fcc4e888fae17f2c965d",
+        "size_in_bytes": 15097
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef6ef21aef83f8c4b367b113e4d17a62014f3cb677cc6e589ca108e883c0155",
+        "sha256_in_prefix": "aef6ef21aef83f8c4b367b113e4d17a62014f3cb677cc6e589ca108e883c0155",
+        "size_in_bytes": 14108
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e78ee939e0b31344b68687385cfd63dcef7a9d0f86ccc382aa33cdbcf43d7cd",
+        "sha256_in_prefix": "8e78ee939e0b31344b68687385cfd63dcef7a9d0f86ccc382aa33cdbcf43d7cd",
+        "size_in_bytes": 30739
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_data_structures.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "de236b3b035f7972af283cbd51dfc41b09c8e7892317fa85aeaccced25cf8cc8",
+        "sha256_in_prefix": "de236b3b035f7972af283cbd51dfc41b09c8e7892317fa85aeaccced25cf8cc8",
+        "size_in_bytes": 65896
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_fit.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e5ba4dd9f0c49b4ddab6df50b523a3e5c227b54242d06a64164e52d71cb5e4d",
+        "sha256_in_prefix": "1e5ba4dd9f0c49b4ddab6df50b523a3e5c227b54242d06a64164e52d71cb5e4d",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_outline.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf5d230eb76c0aa8ca9d035006b4d51d26c384d64aa56f7350451f454ee1907f",
+        "sha256_in_prefix": "bf5d230eb76c0aa8ca9d035006b4d51d26c384d64aa56f7350451f454ee1907f",
+        "size_in_bytes": 1789
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_rectangle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c716a949511fb9c11491e73392519c87d767f2605cf847198a81224c58afbfca",
+        "sha256_in_prefix": "c716a949511fb9c11491e73392519c87d767f2605cf847198a81224c58afbfca",
+        "size_in_bytes": 7778
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9080940874454939d85d8c0c4edcc813eb212aed73ebb870fe1bcd4566611e5",
+        "sha256_in_prefix": "f9080940874454939d85d8c0c4edcc813eb212aed73ebb870fe1bcd4566611e5",
+        "size_in_bytes": 6655
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/__pycache__/_viewerpref.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "63554d3b3bf71a5c20cdff50a874d83792503ad241b574d8367d21fba6ef63d1",
+        "sha256_in_prefix": "63554d3b3bf71a5c20cdff50a874d83792503ad241b574d8367d21fba6ef63d1",
+        "size_in_bytes": 8986
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_base.py",
+        "path_type": "hardlink",
+        "sha256": "4bb1cf303fbc4e1d23591887f962913f0a5844ad6b1e1c0384cd270557bd13a4",
+        "sha256_in_prefix": "4bb1cf303fbc4e1d23591887f962913f0a5844ad6b1e1c0384cd270557bd13a4",
+        "size_in_bytes": 24567
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_data_structures.py",
+        "path_type": "hardlink",
+        "sha256": "7f70d40b22ce4cd485e2871695d350a76183f0eaf3289fa7383fa6965fbbc69e",
+        "sha256_in_prefix": "7f70d40b22ce4cd485e2871695d350a76183f0eaf3289fa7383fa6965fbbc69e",
+        "size_in_bytes": 58626
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_fit.py",
+        "path_type": "hardlink",
+        "sha256": "ff66dba21270969125b4d68ba7c8f9b7c75236cdf6ef46affddf00e45bccdf6a",
+        "sha256_in_prefix": "ff66dba21270969125b4d68ba7c8f9b7c75236cdf6ef46affddf00e45bccdf6a",
+        "size_in_bytes": 5427
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_outline.py",
+        "path_type": "hardlink",
+        "sha256": "6fc36c3d978368efecd594482f02853c46a87c0861c9f0c6392d3a726e18c519",
+        "sha256_in_prefix": "6fc36c3d978368efecd594482f02853c46a87c0861c9f0c6392d3a726e18c519",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_rectangle.py",
+        "path_type": "hardlink",
+        "sha256": "ed971359f037a5c8de2dc579c890207c9d28350f9bab5cee6aa8ae20f7759a8a",
+        "sha256_in_prefix": "ed971359f037a5c8de2dc579c890207c9d28350f9bab5cee6aa8ae20f7759a8a",
+        "size_in_bytes": 3808
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "2a88145c92f76dd47dc7c09651056f0096b59e3d67be625d075fe951b5dd2b27",
+        "sha256_in_prefix": "2a88145c92f76dd47dc7c09651056f0096b59e3d67be625d075fe951b5dd2b27",
+        "size_in_bytes": 6420
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/generic/_viewerpref.py",
+        "path_type": "hardlink",
+        "sha256": "97f5701a41e4c18454f736a910633d7a7fa1c27c2c556ce6fb9edc28034ff7a5",
+        "sha256_in_prefix": "97f5701a41e4c18454f736a910633d7a7fa1c27c2c556ce6fb9edc28034ff7a5",
+        "size_in_bytes": 6642
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/pagerange.py",
+        "path_type": "hardlink",
+        "sha256": "e92e9038acef03695c16bce4b1287c27886ce2ec20225ff9dece2294f70fab9a",
+        "sha256_in_prefix": "e92e9038acef03695c16bce4b1287c27886ce2ec20225ff9dece2294f70fab9a",
+        "size_in_bytes": 6880
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/papersizes.py",
+        "path_type": "hardlink",
+        "sha256": "002ce4707efbaeb31f9f9969eba9993e861a14988f8ddc047ad21094e05718cc",
+        "sha256_in_prefix": "002ce4707efbaeb31f9f9969eba9993e861a14988f8ddc047ad21094e05718cc",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/types.py",
+        "path_type": "hardlink",
+        "sha256": "e25e3a8ead10d61d0c343cf4f86fdde9948ed8e89a37e199804c95aea2b5f5c6",
+        "sha256_in_prefix": "e25e3a8ead10d61d0c343cf4f86fdde9948ed8e89a37e199804c95aea2b5f5c6",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pypdf/xmp.py",
+        "path_type": "hardlink",
+        "sha256": "6259d7c3423fffe633204f390caa1b0061a39ed843079ceb31693c81a7ca516e",
+        "sha256_in_prefix": "6259d7c3423fffe633204f390caa1b0061a39ed843079ceb31693c81a7ca516e",
+        "size_in_bytes": 14192
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pypdf",
+  "sha256": "8a95ae213db4071f91731f1cc5289e5c0bf818090029fd84be485352e0d23721",
+  "size": 706045,
+  "subdir": "linux-64",
+  "timestamp": 1715376162000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pypdf-4.2.0-py312h06a4308_0.conda",
+  "version": "4.2.0"
+}

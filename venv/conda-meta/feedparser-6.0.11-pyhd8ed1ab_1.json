@@ -1,0 +1,516 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "sgmllib3k"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/feedparser-6.0.11-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/LICENSE",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/METADATA",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/RECORD",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/WHEEL",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/feedparser-6.0.11.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/feedparser/__init__.py",
+    "lib/python3.12/site-packages/feedparser/api.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/__init__.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/asctime.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/greek.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/hungarian.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/iso8601.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/korean.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/perforce.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/rfc822.py",
+    "lib/python3.12/site-packages/feedparser/datetimes/w3dtf.py",
+    "lib/python3.12/site-packages/feedparser/encodings.py",
+    "lib/python3.12/site-packages/feedparser/exceptions.py",
+    "lib/python3.12/site-packages/feedparser/html.py",
+    "lib/python3.12/site-packages/feedparser/http.py",
+    "lib/python3.12/site-packages/feedparser/mixin.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/__init__.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/_base.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/admin.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/cc.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/dc.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/georss.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/itunes.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/mediarss.py",
+    "lib/python3.12/site-packages/feedparser/namespaces/psc.py",
+    "lib/python3.12/site-packages/feedparser/parsers/__init__.py",
+    "lib/python3.12/site-packages/feedparser/parsers/loose.py",
+    "lib/python3.12/site-packages/feedparser/parsers/strict.py",
+    "lib/python3.12/site-packages/feedparser/sanitizer.py",
+    "lib/python3.12/site-packages/feedparser/sgml.py",
+    "lib/python3.12/site-packages/feedparser/urls.py",
+    "lib/python3.12/site-packages/feedparser/util.py",
+    "lib/python3.12/site-packages/feedparser/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/api.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/asctime.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/greek.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/hungarian.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/iso8601.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/korean.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/perforce.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/rfc822.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/w3dtf.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/encodings.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/html.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/http.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/mixin.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/_base.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/admin.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/cc.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/dc.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/georss.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/itunes.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/mediarss.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/psc.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/parsers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/parsers/__pycache__/loose.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/parsers/__pycache__/strict.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/sanitizer.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/sgml.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/urls.cpython-312.pyc",
+    "lib/python3.12/site-packages/feedparser/__pycache__/util.cpython-312.pyc"
+  ],
+  "fn": "feedparser-6.0.11-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/user/.conda/pkgs/feedparser-6.0.11-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "5ee4b7eebc1f6b020903d01604e279c6",
+  "name": "feedparser",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/feedparser-6.0.11-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "156aef3a1a0d7c6ecac7c1f060b72191749ce6fe3e3ca2504b37a4c4d51aec2a",
+        "sha256_in_prefix": "156aef3a1a0d7c6ecac7c1f060b72191749ce6fe3e3ca2504b37a4c4d51aec2a",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6c3d380a2f14837843ef9806f2763feb88338f5db3f24bb3817985848790d53f",
+        "sha256_in_prefix": "6c3d380a2f14837843ef9806f2763feb88338f5db3f24bb3817985848790d53f",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d62235d8c826c2278de48ff6c08e526b9aebce2605d64e9329f38dd0be686a6f",
+        "sha256_in_prefix": "d62235d8c826c2278de48ff6c08e526b9aebce2605d64e9329f38dd0be686a6f",
+        "size_in_bytes": 5148
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "df40a9c91e60c524c74dcd5cb7c52c4b1a3ac02a7dd9b113b708bbb43e7ce7ac",
+        "sha256_in_prefix": "df40a9c91e60c524c74dcd5cb7c52c4b1a3ac02a7dd9b113b708bbb43e7ce7ac",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/feedparser-6.0.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "57c38cc8e15f396238e9e9b613e486a48cb0b8f64462d30f39c3ee6bf833bd49",
+        "sha256_in_prefix": "57c38cc8e15f396238e9e9b613e486a48cb0b8f64462d30f39c3ee6bf833bd49",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/feedparser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bb901848f40847f0558572ed22e74ed104f0560ff88243df4a2061324a27da90",
+        "sha256_in_prefix": "bb901848f40847f0558572ed22e74ed104f0560ff88243df4a2061324a27da90",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "site-packages/feedparser/api.py",
+        "path_type": "hardlink",
+        "sha256": "8afa6996ca48ae4881c0001f2a741e6ed14c8db35d16ec5e15f12152133a5a55",
+        "sha256_in_prefix": "8afa6996ca48ae4881c0001f2a741e6ed14c8db35d16ec5e15f12152133a5a55",
+        "size_in_bytes": 11379
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "271116ec8f87d48ad281d54bc7c1a051d9bf9a726866e6a42d020de3cdcf2204",
+        "sha256_in_prefix": "271116ec8f87d48ad281d54bc7c1a051d9bf9a726866e6a42d020de3cdcf2204",
+        "size_in_bytes": 2786
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/asctime.py",
+        "path_type": "hardlink",
+        "sha256": "e7aed6453ba56f1f47c6f645bda512832182d667c65fd6146efd8d076e189111",
+        "sha256_in_prefix": "e7aed6453ba56f1f47c6f645bda512832182d667c65fd6146efd8d076e189111",
+        "size_in_bytes": 2380
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/greek.py",
+        "path_type": "hardlink",
+        "sha256": "97c044f93b8c2549d47c1e7f8df2652d949d670bbf8ab110572f692b2dc3e2d9",
+        "sha256_in_prefix": "97c044f93b8c2549d47c1e7f8df2652d949d670bbf8ab110572f692b2dc3e2d9",
+        "size_in_bytes": 4022
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/hungarian.py",
+        "path_type": "hardlink",
+        "sha256": "6b0dcf215eadf63bb059e46ac713cb0d6b668ee766d25a868052af91dd75484d",
+        "sha256_in_prefix": "6b0dcf215eadf63bb059e46ac713cb0d6b668ee766d25a868052af91dd75484d",
+        "size_in_bytes": 2945
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/iso8601.py",
+        "path_type": "hardlink",
+        "sha256": "c67c3e69722e22c233fddf19a36d5173400d55315433b1cdfc926f8cdcf9d8c7",
+        "sha256_in_prefix": "c67c3e69722e22c233fddf19a36d5173400d55315433b1cdfc926f8cdcf9d8c7",
+        "size_in_bytes": 5550
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/korean.py",
+        "path_type": "hardlink",
+        "sha256": "d3807c9fe9ef654cafaa870d456c30e7c356175d8df5e999ee814f4e5f2967ba",
+        "sha256_in_prefix": "d3807c9fe9ef654cafaa870d456c30e7c356175d8df5e999ee814f4e5f2967ba",
+        "size_in_bytes": 3354
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/perforce.py",
+        "path_type": "hardlink",
+        "sha256": "22d5cb45744163bc9cd5923689e185f9c8890b23d30ed3e43944b12dacb46e8b",
+        "sha256_in_prefix": "22d5cb45744163bc9cd5923689e185f9c8890b23d30ed3e43944b12dacb46e8b",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/rfc822.py",
+        "path_type": "hardlink",
+        "sha256": "03e35be6d3f4201f0295708c93bac18725c0a4e3dda3766a0263b58b3a063ed9",
+        "sha256_in_prefix": "03e35be6d3f4201f0295708c93bac18725c0a4e3dda3766a0263b58b3a063ed9",
+        "size_in_bytes": 5423
+      },
+      {
+        "_path": "site-packages/feedparser/datetimes/w3dtf.py",
+        "path_type": "hardlink",
+        "sha256": "743938403beff349432765952a7274debd3efae4353fef1c2ab60ea907569fd8",
+        "sha256_in_prefix": "743938403beff349432765952a7274debd3efae4353fef1c2ab60ea907569fd8",
+        "size_in_bytes": 4506
+      },
+      {
+        "_path": "site-packages/feedparser/encodings.py",
+        "path_type": "hardlink",
+        "sha256": "5b6a4e78c51f8ffb32f57925ee34fac5c3b14e7d11db9b060220526f0add9235",
+        "sha256_in_prefix": "5b6a4e78c51f8ffb32f57925ee34fac5c3b14e7d11db9b060220526f0add9235",
+        "size_in_bytes": 12558
+      },
+      {
+        "_path": "site-packages/feedparser/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "340196f1b798a1d02ae78e88aeacc7bef337f19f60f72040cda826e58e0c8064",
+        "sha256_in_prefix": "340196f1b798a1d02ae78e88aeacc7bef337f19f60f72040cda826e58e0c8064",
+        "size_in_bytes": 1957
+      },
+      {
+        "_path": "site-packages/feedparser/html.py",
+        "path_type": "hardlink",
+        "sha256": "1c945c58e4bb87590ece92273ceb91e01c8f09e066733056611feb9ed62ff19f",
+        "sha256_in_prefix": "1c945c58e4bb87590ece92273ceb91e01c8f09e066733056611feb9ed62ff19f",
+        "size_in_bytes": 11258
+      },
+      {
+        "_path": "site-packages/feedparser/http.py",
+        "path_type": "hardlink",
+        "sha256": "beaf910e0a644fa3cb0b32f3e80115734511b6f68138588ce646915a6a52c756",
+        "sha256_in_prefix": "beaf910e0a644fa3cb0b32f3e80115734511b6f68138588ce646915a6a52c756",
+        "size_in_bytes": 9844
+      },
+      {
+        "_path": "site-packages/feedparser/mixin.py",
+        "path_type": "hardlink",
+        "sha256": "784710169982c5be56fc5e11da281bfbf1cc75397a11e4e4b2c3f80180d1f468",
+        "sha256_in_prefix": "784710169982c5be56fc5e11da281bfbf1cc75397a11e4e4b2c3f80180d1f468",
+        "size_in_bytes": 32224
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/_base.py",
+        "path_type": "hardlink",
+        "sha256": "db1839d581f047445699632684f24a86a688e3ba142a4dc62b3e78dff903b9ea",
+        "sha256_in_prefix": "db1839d581f047445699632684f24a86a688e3ba142a4dc62b3e78dff903b9ea",
+        "size_in_bytes": 17130
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/admin.py",
+        "path_type": "hardlink",
+        "sha256": "40c03c8efce9686efc1c4e89560c7cc7d59e638642283670d4939ea7d983e46c",
+        "sha256_in_prefix": "40c03c8efce9686efc1c4e89560c7cc7d59e638642283670d4939ea7d983e46c",
+        "size_in_bytes": 2317
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/cc.py",
+        "path_type": "hardlink",
+        "sha256": "686b7a26d3edc780cb53224d8ffa5f4d309d68553632b36381b044595a302f37",
+        "sha256_in_prefix": "686b7a26d3edc780cb53224d8ffa5f4d309d68553632b36381b044595a302f37",
+        "size_in_bytes": 2866
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/dc.py",
+        "path_type": "hardlink",
+        "sha256": "de535966b325c906bacaad6b4619df96bb4347757652aa17b37e527b544a39e7",
+        "sha256_in_prefix": "de535966b325c906bacaad6b4619df96bb4347757652aa17b37e527b544a39e7",
+        "size_in_bytes": 4446
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/georss.py",
+        "path_type": "hardlink",
+        "sha256": "3034d416a739d978cdc8ee373fd5d25b55ae58de31ef4c6d8e63f80cebebc00c",
+        "sha256_in_prefix": "3034d416a739d978cdc8ee373fd5d25b55ae58de31ef4c6d8e63f80cebebc00c",
+        "size_in_bytes": 11468
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/itunes.py",
+        "path_type": "hardlink",
+        "sha256": "5da3afd45cb708896a43fa1a1d8ea300016bac7a4335f0c3778a7b3ba5f4a842",
+        "sha256_in_prefix": "5da3afd45cb708896a43fa1a1d8ea300016bac7a4335f0c3778a7b3ba5f4a842",
+        "size_in_bytes": 4115
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/mediarss.py",
+        "path_type": "hardlink",
+        "sha256": "c2b0d3572d030df28c9caf9651852f955a9d3aeaa1c67fe08a3cfea444969791",
+        "sha256_in_prefix": "c2b0d3572d030df28c9caf9651852f955a9d3aeaa1c67fe08a3cfea444969791",
+        "size_in_bytes": 5336
+      },
+      {
+        "_path": "site-packages/feedparser/namespaces/psc.py",
+        "path_type": "hardlink",
+        "sha256": "2377650a2abb2ef91f689091b9044612b7baf828c5fbc3c19b52207a44a9861d",
+        "sha256_in_prefix": "2377650a2abb2ef91f689091b9044612b7baf828c5fbc3c19b52207a44a9861d",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "site-packages/feedparser/parsers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/feedparser/parsers/loose.py",
+        "path_type": "hardlink",
+        "sha256": "1b97abe967c137e2566ed6f73881985a5b0b8cfe15a4688755c1646660a17b60",
+        "sha256_in_prefix": "1b97abe967c137e2566ed6f73881985a5b0b8cfe15a4688755c1646660a17b60",
+        "size_in_bytes": 3452
+      },
+      {
+        "_path": "site-packages/feedparser/parsers/strict.py",
+        "path_type": "hardlink",
+        "sha256": "e7db8893341c098ecb6f9e2e6e6c7a7746f10277523d1fca2775880f08c93219",
+        "sha256_in_prefix": "e7db8893341c098ecb6f9e2e6e6c7a7746f10277523d1fca2775880f08c93219",
+        "size_in_bytes": 5817
+      },
+      {
+        "_path": "site-packages/feedparser/sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "2ebe6e4eaaf7a95dc00ce3083884a8a3426114592365017c99d4d66f92686e97",
+        "sha256_in_prefix": "2ebe6e4eaaf7a95dc00ce3083884a8a3426114592365017c99d4d66f92686e97",
+        "size_in_bytes": 23856
+      },
+      {
+        "_path": "site-packages/feedparser/sgml.py",
+        "path_type": "hardlink",
+        "sha256": "ad3cccbf18bfc126470913ad3ef7f1d89e75eedc0a98c240cdf170add0f997b7",
+        "sha256_in_prefix": "ad3cccbf18bfc126470913ad3ef7f1d89e75eedc0a98c240cdf170add0f997b7",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "site-packages/feedparser/urls.py",
+        "path_type": "hardlink",
+        "sha256": "d83439c74de101604e030e783667ea055fda876b05374bbb9ca1d804a815d00a",
+        "sha256_in_prefix": "d83439c74de101604e030e783667ea055fda876b05374bbb9ca1d804a815d00a",
+        "size_in_bytes": 5490
+      },
+      {
+        "_path": "site-packages/feedparser/util.py",
+        "path_type": "hardlink",
+        "sha256": "6a175081b15bdbc643d6f7d76a27fb8984fbe8705aae69998f70bb994d527430",
+        "sha256_in_prefix": "6a175081b15bdbc643d6f7d76a27fb8984fbe8705aae69998f70bb994d527430",
+        "size_in_bytes": 6490
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/api.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/asctime.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/greek.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/hungarian.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/iso8601.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/korean.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/perforce.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/rfc822.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/datetimes/__pycache__/w3dtf.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/encodings.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/html.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/http.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/mixin.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/_base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/admin.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/cc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/dc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/georss.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/itunes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/mediarss.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/namespaces/__pycache__/psc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/parsers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/parsers/__pycache__/loose.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/parsers/__pycache__/strict.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/sanitizer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/sgml.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/urls.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/feedparser/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c2cebdeb6bcb5dd332141be184245184452a61329be9ff24fb375e5edaff6af3",
+  "size": 52258,
+  "subdir": "noarch",
+  "timestamp": 1734808173000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/feedparser-6.0.11-pyhd8ed1ab_1.conda",
+  "version": "6.0.11"
+}
