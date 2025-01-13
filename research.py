@@ -11,4 +11,4 @@ research_agent=Agent(
 )
 
 #agent = Agent(tools=[ArxivToolkit()], show_tool_calls=True)
-research_agent.print_response("Search arxiv for 'Optical Character Recognition','Big data' and 'LLMs", markdown=True)
+research_agent.print_response("Search arxiv for 'Optical Character Recognition' and 'LLMs", markdown=True)

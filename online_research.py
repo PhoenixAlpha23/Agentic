@@ -33,7 +33,6 @@ web_agent= Agent(
         "reccommend topics for research with methodology"
     ],
     debug_mode= True,
-    fixed_max_results=10,
     show_tool_calls=True,
     markdown=True
 )
