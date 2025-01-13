@@ -1,0 +1,123 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "beautifulsoup4",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/googlesearch-3.0.0-pyhd8ed1ab_1",
+  "files": [
+    "bin/google",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/google-3.0.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/googlesearch/__init__.py",
+    "lib/python3.12/site-packages/googlesearch/user_agents.txt.gz",
+    "lib/python3.12/site-packages/googlesearch/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "fn": "googlesearch-3.0.0-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/user/.conda/pkgs/googlesearch-3.0.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "08ca9032d3f047132e49d024ea3aefc7",
+  "name": "googlesearch",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/googlesearch-3.0.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/google",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/googlesearch_1735279112531/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "5987a866f24c1f9d8b2df6de84f423d5258b376b4abcf84b89ba760e7f97262c",
+        "sha256_in_prefix": "81e72bcfff9604b9ad5ba37cfd9476ab9b3b3b12a937f73666a87fc3e44d862b",
+        "size_in_bytes": 4953
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "40fd55dc775da84614ba18228c3f22c29a8f1dc2fda95f82430d2c43678e28c2",
+        "sha256_in_prefix": "40fd55dc775da84614ba18228c3f22c29a8f1dc2fda95f82430d2c43678e28c2",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "14b0d765f0f0fe783849268db8c365d2ff8f1961282f57bf30b18d86578057dd",
+        "sha256_in_prefix": "14b0d765f0f0fe783849268db8c365d2ff8f1961282f57bf30b18d86578057dd",
+        "size_in_bytes": 869
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b99fa5f66e549a682bd81ab36561a6220262813320b662a80cdc7956ba983b54",
+        "sha256_in_prefix": "b99fa5f66e549a682bd81ab36561a6220262813320b662a80cdc7956ba983b54",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/google-3.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "430ad9229d9f7b6dd4b5b67bd95cc8fa7f1ee2d90227bcee4f974ae73f38370b",
+        "sha256_in_prefix": "430ad9229d9f7b6dd4b5b67bd95cc8fa7f1ee2d90227bcee4f974ae73f38370b",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/googlesearch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8a610618608b7ded510d49b629ef7034ff498e7360a7bf32d269169062a6edae",
+        "sha256_in_prefix": "8a610618608b7ded510d49b629ef7034ff498e7360a7bf32d269169062a6edae",
+        "size_in_bytes": 12981
+      },
+      {
+        "_path": "site-packages/googlesearch/user_agents.txt.gz",
+        "path_type": "hardlink",
+        "sha256": "5753a532e5582d0ca6ef4b768f080f2a27742d23a06e2942b73de00941ad6764",
+        "sha256_in_prefix": "5753a532e5582d0ca6ef4b768f080f2a27742d23a06e2942b73de00941ad6764",
+        "size_in_bytes": 36068
+      },
+      {
+        "_path": "lib/python3.12/site-packages/googlesearch/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge::googlesearch",
+  "sha256": "3c19ef2ecf9f8398b4fb7594a8e356c27b2191937afff4f536640d2f5808f04b",
+  "size": 49798,
+  "subdir": "noarch",
+  "timestamp": 1735279209000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/googlesearch-3.0.0-pyhd8ed1ab_1.conda",
+  "version": "3.0.0"
+}

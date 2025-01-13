@@ -143,3 +143,8 @@
 # conda version: 24.4.0
 +defaults/linux-64::python-multipart-0.0.9-py312h06a4308_0
 # update specs: ['python-multipart']
+==> 2025-01-13 13:18:05 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install conda-forge::googlesearch
+# conda version: 24.4.0
++conda-forge/noarch::googlesearch-3.0.0-pyhd8ed1ab_1
+# update specs: ['conda-forge::googlesearch']
