@@ -26,7 +26,14 @@ web_agent= Agent(
     name='Web search Agent',
     tools=[GoogleSearch()],
     model=Groq(id="llama-3.1-70b-versatile"),
-    instructions=["Search for research papers from google scholar, semantic scholar, ieeexplore and paperswithcode.com for topics and methodogies used."],
+    instructions=[
+        "Search for research papers on google scholar, semantic scholar, ieeexplore and paperswithcode.com",
+        "Pick topics with least common approaches/methodologies among them, with great potential",
+        "Pick methodologes with have potential to improve results or have a innovative approach",
+        "reccommend topics for research with methodology"
+    ],
+    debug_mode= True,
+    fixed_max_results=10,
     show_tool_calls=True,
     markdown=True
 )
@@ -40,4 +47,4 @@ multi_agent= Agent(
 #agent = Agent(tools=[ArxivToolkit()], show_tool_calls=True)
 #research_agent.print_response("Search arxiv for 'Optical Character Recognition','Big data' and 'LLMs", markdown=True)
 
-multi_agent.print_response("Search for research topics in OCR and LLM combination",markdown=True)
+web_agent.print_response("Search for research topics in OCR and LLM combination papers",markdown=True)

@@ -148,3 +148,15 @@
 # conda version: 24.4.0
 +conda-forge/noarch::googlesearch-3.0.0-pyhd8ed1ab_1
 # update specs: ['conda-forge::googlesearch']
+==> 2025-01-13 13:22:30 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install conda-forge::pycountry
+# conda version: 24.4.0
++conda-forge/noarch::pycountry-24.6.1-pyhd8ed1ab_0
+# update specs: ['conda-forge::pycountry']
+==> 2025-01-13 13:30:26 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install openai
+# conda version: 24.4.0
++defaults/linux-64::jiter-0.6.1-py312hb02cf49_0
++defaults/linux-64::openai-1.52.1-py312h06a4308_0
++defaults/linux-64::tqdm-4.66.5-py312he106c6f_0
+# update specs: ['openai']

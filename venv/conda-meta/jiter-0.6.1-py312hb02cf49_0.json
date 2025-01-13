@@ -1,0 +1,106 @@
+{
+  "build": "py312hb02cf49_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/home/user/.conda/pkgs/jiter-0.6.1-py312hb02cf49_0",
+  "files": [
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jiter-0.6.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jiter/__init__.py",
+    "lib/python3.12/site-packages/jiter/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/jiter/jiter.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "fn": "jiter-0.6.1-py312hb02cf49_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/user/.conda/pkgs/jiter-0.6.1-py312hb02cf49_0",
+    "type": 1
+  },
+  "md5": "aa232ee2a946c8d58cc55555852f16de",
+  "name": "jiter",
+  "package_tarball_full_path": "/home/user/.conda/pkgs/jiter-0.6.1-py312hb02cf49_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "698ec7b4b66dcba5e60480e8296830640669746e8484fb808dd48b8079faaba0",
+        "sha256_in_prefix": "698ec7b4b66dcba5e60480e8296830640669746e8484fb808dd48b8079faaba0",
+        "size_in_bytes": 8078
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cf8235fa8e05bb182e4be8367d2c56050654c3a483a6d6b2859a0b3559ce1385",
+        "sha256_in_prefix": "cf8235fa8e05bb182e4be8367d2c56050654c3a483a6d6b2859a0b3559ce1385",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cbf22f1af63e72112b0cb12d2084e37f5a7c8d7b9a6c9fd521df108fee31c297",
+        "sha256_in_prefix": "cbf22f1af63e72112b0cb12d2084e37f5a7c8d7b9a6c9fd521df108fee31c297",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter-0.6.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e7eadefb529f28ba1c49a339b5d11eb54e1721ea8baa885bf7884feb88b4e9fa",
+        "sha256_in_prefix": "e7eadefb529f28ba1c49a339b5d11eb54e1721ea8baa885bf7884feb88b4e9fa",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "169f4790e8b18986034a20bff34be6889fec0a80864fc380878f3296d9b494fd",
+        "sha256_in_prefix": "169f4790e8b18986034a20bff34be6889fec0a80864fc380878f3296d9b494fd",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0659b3df33bd641013587ddb42295daaf54bfee3f483d1c7a3dfaa535d10060c",
+        "sha256_in_prefix": "0659b3df33bd641013587ddb42295daaf54bfee3f483d1c7a3dfaa535d10060c",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jiter/jiter.cpython-312-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6e28840577507cf957ac927815566b9eb9b8af8bf4b0745af019c3f0fe9efa16",
+        "sha256_in_prefix": "6e28840577507cf957ac927815566b9eb9b8af8bf4b0745af019c3f0fe9efa16",
+        "size_in_bytes": 4175792
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "40b53d5a4ef45e6476d2fce388aed51ca68bd66cf49d36c093d599c69042e4d7",
+  "size": 956169,
+  "subdir": "linux-64",
+  "timestamp": 1729809003000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jiter-0.6.1-py312hb02cf49_0.conda",
+  "version": "0.6.1"
+}
