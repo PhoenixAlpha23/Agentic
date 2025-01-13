@@ -127,3 +127,19 @@
 # conda version: 24.4.0
 +defaults/linux-64::pypdf-4.2.0-py312h06a4308_0
 # update specs: ['pypdf']
+==> 2025-01-12 14:05:10 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install fastapi
+# conda version: 24.4.0
++defaults/linux-64::fastapi-0.112.2-py312h06a4308_0
++defaults/linux-64::starlette-0.38.2-py312h06a4308_0
+# update specs: ['fastapi']
+==> 2025-01-12 14:05:56 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install python-docx
+# conda version: 24.4.0
++conda-forge/noarch::python-docx-1.1.2-pyhff2d567_1
+# update specs: ['python-docx']
+==> 2025-01-12 14:06:50 <==
+# cmd: /nix/store/kwfj3g11fjps5p8z58j1hnj8abbdlalm-python3.12-conda-24.4.0/lib/python3.12/site-packages/conda/__main__.py install python-multipart
+# conda version: 24.4.0
++defaults/linux-64::python-multipart-0.0.9-py312h06a4308_0
+# update specs: ['python-multipart']
